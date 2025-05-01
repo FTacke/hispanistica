@@ -1,0 +1,42 @@
+site_name: Hispanistica
+
+theme:
+  name: material
+
+  # Rechte ToC-Leiste deaktivieren
+  features:
+    - toc.integrate        # ← integriert das Inhaltsverzeichnis in die linke Nav
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dunkler Modus
+      default: true
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Heller Modus
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: de
+          name: Deutsch
+          default: true
+          build: true
+        - locale: es
+          name: Español
+          build: true
+      # Nav-Labels für ES überschreiben
+      nav_translations:
+        es:
+          Über uns: Acerca de
+          Impressum: Aviso legal
+
+# Linke Navigation
+nav:
+  - Projekte: index.md
+  - Über uns: about.md
+  - Impressum: impressum.md
