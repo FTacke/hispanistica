@@ -1,11 +1,12 @@
-site_name: Hispanistica
+site_name: Hispanistica @ Marburg
 
 theme:
   name: material
 
-  # Rechte ToC-Leiste deaktivieren
   features:
-    - toc.integrate        # ← integriert das Inhaltsverzeichnis in die linke Nav
+    - toc.integrate
+
+  logo: assets/images/logo.svg     
 
   palette:
     - scheme: default
@@ -13,30 +14,40 @@ theme:
         icon: material/weather-night
         name: Dunkler Modus
       default: true
+      primary: indigo      # Platzhalter – wird durch CSS ersetzt
+      accent: teal
+
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Heller Modus
+      primary: indigo
+      accent: teal
+      background: slate.lighten-5
+      surface: slate.lighten-4
+      text: slate.darken-3
+
+extra_css:
+  - stylesheets/overrides.css
 
 plugins:
   - search
-  - i18n:
+  - i18n:                           # mkdocs-static-i18n  ≥ 1.0
       languages:
         - locale: de
           name: Deutsch
-          default: true
+          default: true             # <- diese Sprache landet auf /
           build: true
+          nav:
+            - Projekte: index.md
+            - Impressum: impressum.md
+
         - locale: es
           name: Español
           build: true
-      # Nav-Labels für ES überschreiben
-      nav_translations:
-        es:
-          Über uns: Acerca de
-          Impressum: Aviso legal
+          nav:
+            - Proyectos: index.md
+            - Aviso legal: impressum.md
 
-# Linke Navigation
-nav:
-  - Projekte: index.md
-  - Über uns: about.md
-  - Impressum: impressum.md
+markdown_extensions:
+  - attr_list
