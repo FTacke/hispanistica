@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-05-01</lastmod>
+        <lastmod>2025-05-02</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="None"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
     </url>
     <url>
         <loc>Noneabout/</loc>
-        <lastmod>2025-05-01</lastmod>
+        <lastmod>2025-05-02</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="Noneabout/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/about/"/>
     </url>
     <url>
         <loc>Noneimpressum/</loc>
-        <lastmod>2025-05-01</lastmod>
+        <lastmod>2025-05-02</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="Noneimpressum/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/impressum/"/>
     </url>
     <url>
         <loc>Nonees/</loc>
-        <lastmod>2025-05-01</lastmod>
+        <lastmod>2025-05-02</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
         <xhtml:link rel="alternate" hreflang="de" href="None"/>
     </url>
     <url>
         <loc>Nonees/about/</loc>
-        <lastmod>2025-05-01</lastmod>
+        <lastmod>2025-05-02</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/about/"/>
         <xhtml:link rel="alternate" hreflang="de" href="Noneabout/"/>
     </url>
     <url>
         <loc>Nonees/impressum/</loc>
-        <lastmod>2025-05-01</lastmod>
+        <lastmod>2025-05-02</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/impressum/"/>
         <xhtml:link rel="alternate" hreflang="de" href="Noneimpressum/"/>
