@@ -2,7 +2,7 @@
 title: Hispanistica @ Marburg
 ---
 
-# Projekte
+# Projektübersicht
 
 Auf **Hispanistica** finden Sie einen Überblick über die verschiedenen Digital Humanities-Projekte der hispanistischen Sprachwissenschaft an der Philipps-Universität Marburg unter der Leitung von Prof. Dr. Felix Tacke.
 
@@ -10,23 +10,17 @@ Durch die Verfügbarkeit von Large Language Models (LLMs) und generativer KI er�
 
 Unser Ansatz profitiert vom Open-Source-Gedanken und möchte selbst Impulse zurückgeben. Den gesamten Quellcode unserer Projekte findest du auf GitHub: [![GitHub](https://img.shields.io/badge/GitHub-FTacke-4287f5?style=flat&logo=github&logoColor=white)](https://github.com/FTacke){target="_blank" rel="noopener noreferrer"}.
 
-### [CO.RA.PAN](https://corapan.online.uni-marburg.de/){target="_blank" rel="noopener noreferrer"}
+[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
+Korpusprojekt mit 1,5 Mio. Wörtern aus Nachrichtensendungen aus fast allen hispanophonen Ländern, das erstmals die systematische Erforschung der Plurizentrik des Spanischen ermglicht.  
+KI-gestützte Webapp mit überarbeiteten Transkriptionen, durchsuchbaren Audiodateien und linguistischer Annotation.
 
-**CO.RA.PAN (Corpus Radiofónico Panhispánico)** ermöglicht erstmals systematische Forschung zur Plurizentrik des Spanischen auf Basis gesprochener Standardsprache aus nahezu allen hispanophonen Ländern (mit Ausnahme Äquatorialguineas). Das Korpus enthält knapp 1,5 Millionen Wörter aus Nachrichtensendungen der Hauptstadt-Sender, mit mindestens sechs Stunden Audio pro Land. Eine eigens entwickelte Webapp macht die KI-gestützten, überarbeiteten Transkriptionen sowie die zugrundeliegenden Audiofiles zugänglich und über eine Datenbank durchsuchbar. Sämtliche Daten sind linguistisch annotiert und systematisch u.a. nach Sprechertypen, Redesituationen klassifiziert. Damit stehen erstmals hochqualitative, vergleichbare Forschungsdaten zur gesamten Hispanophonie zur Verfügung.
+[MAR.ELE](marele.md)  
+Korpus zur Erforschung der Aussprache des Spanischen als Fremdsprache auf Basis von Studierenden-Audioaufnahmen.  
+Webapp bietet vollständige Aufnahmen, soziodemografische Angaben und vergleichende Hörsegmente.
 
----
+[Spanische Linguistik @ School](spanisch-toolkit.md)  
+Digitales Sachbuch für Spanischlehrkräfte mit verständlichen Einführungen in zentrale sprachwissenschaftliche Themen.  
+Kollaborativ mit Studierenden entwickelt und kontinuierlich erweiterbar.  
 
-### [MAR.ELE](https://marele.online.uni-marburg.de/){target="_blank" rel="noopener noreferrer"}
-
-**MAR.ELE** ist ein Korpusprojekt zur Erforschung der Aussprache des Spanischen als Fremdsprache. Es basiert auf Audioaufnahmen von Studierenden der Universität Marburg, die sowohl einen Lesetext als auch eine Wortliste eingelesen haben. Das kontinuierlich wachsende Korpus wird zu linguistischen und didaktischen Zwecken veröffentlicht und ermöglicht erstmals systematische empirische Studien zu Schwierigkeiten, Herausforderungen und Entwicklungsprozessen in der Aussprachekompetenz von Lernenden.
-Die Webapp stellt nicht nur die vollständigen Aufnahmen einzelner Sprecher:innen zur Verfügung, sondern bietet auch soziodemografische Angaben. Des Weiteren können die einzelnen Wörter und Satzsegmente gezielt und vergleichend angehört werden.
-Das Korpus eignet sich sowohl für die universitäre Lehre als auch für den Einsatz im schulischen Spanischunterricht.
-
----
-
-### [Spanische Linguistik @ School](https://ftacke.github.io/hispanistica/){target="_blank" rel="noopener noreferrer"}
-
-**Spanische Linguistik @ School** ist ein digitales Sachbuch für (angehende) Spanischlehrkräfte. Es bereitet zentrale Themen der spanischen Sprachwissenschaft verständlich auf und zeigt, wie linguistische Kompetenzen den Fremdsprachenunterricht bereichern können.
-Das Projekt wurde inspiriert vom *Linguistic Toolkit for Teachers of English* von Prof. Dr. Rolf Kreyer (2023) und entsteht seit dem Sommersemester 2025 im Rahmen eines Lehrprojekts an der Philipps-Universität Marburg – es wird gemeinsam mit Studierenden kollaborativ geschrieben und soll auch kontinuierlich weiterentwickelt werden.
 
 

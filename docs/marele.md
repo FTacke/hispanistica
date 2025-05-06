@@ -1,0 +1,5 @@
+### [MAR.ELE](https://marele.online.uni-marburg.de/){target="_blank" rel="noopener noreferrer"}
+
+**MAR.ELE** ist ein Korpusprojekt zur Erforschung der Aussprache des Spanischen als Fremdsprache. Es basiert auf Audioaufnahmen von Studierenden der Universität Marburg, die sowohl einen Lesetext als auch eine Wortliste eingelesen haben. Das kontinuierlich wachsende Korpus wird zu linguistischen und didaktischen Zwecken veröffentlicht und ermöglicht erstmals systematische empirische Studien zu Schwierigkeiten, Herausforderungen und Entwicklungsprozessen in der Aussprachekompetenz von Lernenden.
+Die Webapp stellt nicht nur die vollständigen Aufnahmen einzelner Sprecher:innen zur Verfügung, sondern bietet auch soziodemografische Angaben. Des Weiteren können die einzelnen Wörter und Satzsegmente gezielt und vergleichend angehört werden.
+Das Korpus eignet sich sowohl für die universitäre Lehre als auch für den Einsatz im schulischen Spanischunterricht.
