@@ -2,44 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2025-05-02</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="None"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
     </url>
     <url>
         <loc>Noneabout/</loc>
-        <lastmod>2025-05-02</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="Noneabout/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/about/"/>
     </url>
     <url>
+        <loc>Nonecorapan/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonecorapan/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/corapan/"/>
+    </url>
+    <url>
         <loc>Noneimpressum/</loc>
-        <lastmod>2025-05-02</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="de" href="Noneimpressum/"/>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/impressum/"/>
     </url>
     <url>
+        <loc>Nonemarele/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonemarele/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/marele/"/>
+    </url>
+    <url>
+        <loc>Nonespanisch-toolkit/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonespanisch-toolkit/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/spanisch-toolkit/"/>
+    </url>
+    <url>
         <loc>Nonees/</loc>
-        <lastmod>2025-05-02</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
         <xhtml:link rel="alternate" hreflang="de" href="None"/>
     </url>
     <url>
         <loc>Nonees/about/</loc>
-        <lastmod>2025-05-02</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/about/"/>
         <xhtml:link rel="alternate" hreflang="de" href="Noneabout/"/>
     </url>
     <url>
+        <loc>Nonees/corapan/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/corapan/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonecorapan/"/>
+    </url>
+    <url>
         <loc>Nonees/impressum/</loc>
-        <lastmod>2025-05-02</lastmod>
+        <lastmod>2025-05-06</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/impressum/"/>
         <xhtml:link rel="alternate" hreflang="de" href="Noneimpressum/"/>
+    </url>
+    <url>
+        <loc>Nonees/marele/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/marele/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonemarele/"/>
+    </url>
+    <url>
+        <loc>Nonees/spanisch-toolkit/</loc>
+        <lastmod>2025-05-06</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="Nonees/spanisch-toolkit/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonespanisch-toolkit/"/>
     </url>
 </urlset>
