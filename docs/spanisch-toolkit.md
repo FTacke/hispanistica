@@ -1,5 +1,3 @@
-
-
 **Spanische Linguistik @ School** ist ein digitales Sachbuch für (angehende) Spanischlehrkräfte. Es bereitet zentrale Themen der spanischen Sprachwissenschaft verständlich auf und zeigt, wie linguistische Kompetenzen den Fremdsprachenunterricht bereichern können.
 Das Projekt wurde inspiriert vom *Linguistic Toolkit for Teachers of English* von Prof. Dr. Rolf Kreyer (2023) und entsteht seit dem Sommersemester 2025 im Rahmen eines Lehrprojekts an der Philipps-Universität Marburg – es wird gemeinsam mit Studierenden kollaborativ geschrieben und soll auch kontinuierlich weiterentwickelt werden.
 

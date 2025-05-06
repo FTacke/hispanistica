@@ -2,21 +2,17 @@ site_name: Hispanistica @ Marburg
 
 theme:
   name: material
-
   features:
     - toc.integrate
-
-  logo: assets/images/logo.svg     
-
+  logo: assets/images/logo.svg
   palette:
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Dunkler Modus
       default: true
-      primary: indigo      # Platzhalter – wird durch CSS ersetzt
+      primary: indigo
       accent: teal
-
     - scheme: slate
       toggle:
         icon: material/weather-sunny
@@ -29,25 +25,35 @@ theme:
 
 extra_css:
   - stylesheets/overrides.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
 
 plugins:
   - search
-  - i18n:                           # mkdocs-static-i18n  ≥ 1.0
+  - glightbox
+  - i18n:
       languages:
         - locale: de
           name: Deutsch
-          default: true             # <- diese Sprache landet auf /
+          default: true
           build: true
           nav:
-            - Projekte: index.md
+            - Projekte:
+                - Übersicht: index.md
+                - CO.RA.PAN: corapan.md
+                - MAR.ELE: marele.md
+                - Spanische Linguistik @ School: spanisch-toolkit.md
             - Impressum: impressum.md
-
         - locale: es
           name: Español
           build: true
           nav:
-            - Proyectos: index.md
-            - Aviso legal: impressum.md
+            - Proyectos:
+                - Panorama: index.es.md
+                - CO.RA.PAN: corapan.es.md
+                - MAR.ELE: marele.es.md
+                - Spanische Linguistik @ School: spanisch-toolkit.es.md
+            - Aviso legal: impressum.es.md
 
 markdown_extensions:
   - attr_list
+  - md_in_html
