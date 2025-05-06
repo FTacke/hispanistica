@@ -20,7 +20,7 @@ Webapp bietet vollständige Aufnahmen, soziodemografische Angaben und vergleiche
 
 [Spanische Linguistik @ School](spanisch-toolkit.md)  
 Digitales Sachbuch für Spanischlehrkräfte mit verständlichen Einführungen in zentrale sprachwissenschaftliche Themen.  
-Kollaborativ mit Studierenden entwickelt und kontinuierlich erweiterbar.  
+Kollaborativ mit Studierenden entwickelt und kontinuierlich erweiterbar.   
 
 
 
