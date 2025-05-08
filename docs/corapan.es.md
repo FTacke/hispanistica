@@ -13,7 +13,7 @@ A través de la aplicación web, las personas usuarias pueden, cómodamente desd
 
 Todo el código de la aplicación se gestiona en un repositorio seguro en la nube y se archiva automáticamente en cada nueva versión. Así, se obtiene para cada release un enlace DOI permanente, que puede citarse en publicaciones. En segundo plano, una canalización totalmente automatizada verifica, documenta y preserva las nuevas funciones a largo plazo—sin que haga falta ser desarrollador o desarrolladora.  
 
-[![GitHub – CO.RA.PAN-WebApp](https://img.shields.io/badge/GitHub-CO.RA.PAN--WebApp-181717?logo=github)](https://github.com/USERNAME/CO.RA.PAN-WebApp){target="_blank" rel="noopener noreferrer"}  
+[![GitHub – CO.RA.PAN-WebApp](https://img.shields.io/badge/GitHub-CO.RA.PAN--WebApp-181717?logo=github)](https://github.com/USERNAME/CO.RA.PAN-WebApp){target="_blank" rel="noopener noreferrer"}
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15359652.svg)](https://doi.org/10.5281/zenodo.15359652)
 
 ### 2. Full Corpus (Restringido)
