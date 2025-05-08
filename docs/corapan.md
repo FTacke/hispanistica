@@ -1,5 +1,15 @@
 **CO.RA.PAN** steht für "Corpus Radiofónico Panhispánico". Es handelt sich um ein umfangreiches Korpusprojekt zur systematischen Erforschung der Plurizentrik des Spanischen anhand von gesprochener Standardsprache. Es vereint knapp 1,5 Mio. Wörter aus Nachrichtensendungen der Hauptstadt-Sender aus fast allen hispanophonen Ländern (Ausnahme Äquatorialguinea), jeweils mit mindestens sechs Stunden Audio pro Land. Die Audiodaten wurden mithilfe KI-gestützter Verfahren transkribiert, linguistisch annotiert (z. B. Sprechertyp, Redesituation) und in einer relationalen Datenbank durchsuchbar aufbereitet. Damit stehen erstmals hochqualitative, vergleichbare Forschungsdaten zur gesamten Hispanophonie zur Verfügung.
 
+---
+<div class="masonry" markdown>
+![Corapan Atlas](assets/images/screenshots/corapan_atlas.jpg)
+![Corapan Player](assets/images/screenshots/corapan_player.jpg)
+![Corapan Search](assets/images/screenshots/corapan_search.jpg)
+![Corapan Mobile](assets/images/screenshots/corapan_mobile1.jpg)
+![Corapan Mobile](assets/images/screenshots/corapan_mobile2.jpg)
+</div>
+---
+
 [Zum Online-Korpus <i class="fa-solid fa-up-right-from-square"></i>](https://corapan.online.uni-marburg.de){.md-button .md-button--secondary target="_blank" rel="noopener noreferrer"}
 
 ### 1. Web-App (Code & Dokumentation)
