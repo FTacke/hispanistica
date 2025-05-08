@@ -1,5 +1,7 @@
 **CO.RA.PAN** steht für "Corpus Radiofónico Panhispánico". Es handelt sich um ein umfangreiches Korpusprojekt zur systematischen Erforschung der Plurizentrik des Spanischen anhand von gesprochener Standardsprache. Es vereint knapp 1,5 Mio. Wörter aus Nachrichtensendungen der Hauptstadt-Sender aus fast allen hispanophonen Ländern (Ausnahme Äquatorialguinea), jeweils mit mindestens sechs Stunden Audio pro Land. Die Audiodaten wurden mithilfe KI-gestützter Verfahren transkribiert, linguistisch annotiert (z. B. Sprechertyp, Redesituation) und in einer relationalen Datenbank durchsuchbar aufbereitet. Damit stehen erstmals hochqualitative, vergleichbare Forschungsdaten zur gesamten Hispanophonie zur Verfügung.
 
+[Zum Online-Korpus <i class="fa-solid fa-up-right-from-square"></i>](https://corapan.online.uni-marburg.de){.md-button .md-button--secondary target="_blank" rel="noopener noreferrer"}
+
 ### 1. Web-App (Code & Dokumentation)
 
 Über die Web-App können Nutzer:innen bequem im Browser:
@@ -9,7 +11,7 @@
 - Ergebnisse nach Ländern, Sendern, Sprechertypen und Redesituationen filtern
 - Audio-Snippets herunterladen und Spektrogramme erzeugen
  
-Unser gesamter Anwendungs­code wird in einem sicheren, cloud­basierten Repository verwaltet und bei jedem neuen Release automatisch archiviert. So erhalten Sie zu jeder Version einen dauerhaften DOI–Link, der in Publikationen zitiert werden kann. Hinter den Kulissen sorgt eine vollautomatische Pipeline dafür, dass neue Funktionen geprüft, dokumentiert und langfristig verfügbar gemacht werden – ganz ohne technisches Fachwissen. 
+Unser gesamter Anwendungs­code wird in einem sicheren, cloud­basierten Repository verwaltet und bei jedem neuen Release automatisch archiviert. So erhalten Sie zu jeder Version einen dauerhaften DOI–Link, der in Publikationen zitiert werden kann. Hinter den Kulissen sorgt eine vollautomatische Pipeline dafür, dass neue Funktionen geprüft, dokumentiert und langfristig verfügbar gemacht werden – ganz ohne technisches Fachwissen.
 
 [![GitHub – CO.RA.PAN-WebApp](https://img.shields.io/badge/GitHub-CO.RA.PAN--WebApp-181717?logo=github)](https://github.com/USERNAME/CO.RA.PAN-WebApp){target="_blank" rel="noopener noreferrer"}
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15359652.svg)](https://doi.org/10.5281/zenodo.15359652)  

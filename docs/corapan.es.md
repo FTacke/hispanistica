@@ -1,5 +1,7 @@
 **CO.RA.PAN** significa “Corpus Radiofónico Panhispánico”. Se trata de un extenso proyecto de corpus para la investigación sistemática de la pluricentricidad del español a partir de la lengua estándar hablada. Reúne cerca de 1,5 millones de palabras extraídas de los informativos de las emisoras principales de casi todos los países hispanohablantes (excepto Guinea Ecuatorial), con al menos seis horas de audio por país. Los datos de audio se han transcrito mediante métodos asistidos por IA, se han anotado lingüísticamente (por ejemplo, tipo de hablante, situación de habla) y se han preparado en una base de datos relacional para su consulta. Por primera vez, se dispone de datos de investigación de alta calidad y comparables para toda la Hispanofonía.
 
+[Ir al Corpus en línea <i class="fa-solid fa-up-right-from-square"></i>](https://corapan.online.uni-marburg.de){.md-button .md-button--secondary target="_blank" rel="noopener noreferrer"}
+
 ### 1. Aplicación web (Código y documentación)
 
 A través de la aplicación web, las personas usuarias pueden, cómodamente desde el navegador:
