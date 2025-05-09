@@ -15,7 +15,7 @@
         <link rel="next" href="../spanisch-toolkit/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/hispanistica_favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
@@ -84,6 +84,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-web-app-code-dokumentation" class="md-skip">
+          Zum Inhalt
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -98,7 +103,7 @@
   <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
     <a href=".." title="Hispanistica @ Marburg" class="md-header__button md-logo" aria-label="Hispanistica @ Marburg" data-md-component="logo">
       
-  <img src="../assets/images/logo.svg" alt="logo">
+  <img src="../assets/images/hispanistica_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -249,7 +254,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Hispanistica @ Marburg" class="md-nav__button md-logo" aria-label="Hispanistica @ Marburg" data-md-component="logo">
       
-  <img src="../assets/images/logo.svg" alt="logo">
+  <img src="../assets/images/hispanistica_logo.png" alt="logo">
 
     </a>
     Hispanistica @ Marburg
@@ -357,6 +362,19 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    MAR.ELE
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -368,6 +386,41 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-web-app-code-dokumentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Web-App (Code &amp; Dokumentation)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-full-corpus-restricted" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Full Corpus (Restricted)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -444,10 +497,44 @@
 
   <h1>MAR.ELE</h1>
 
-<p><strong>MAR.ELE</strong> ist ein Korpusprojekt zur Erforschung der Aussprache des Spanischen als Fremdsprache. Es basiert auf Audioaufnahmen von Studierenden der Universität Marburg, die sowohl einen Lesetext als auch eine Wortliste eingelesen haben. Das kontinuierlich wachsende Korpus wird zu linguistischen und didaktischen Zwecken veröffentlicht und ermöglicht erstmals systematische empirische Studien zu Schwierigkeiten, Herausforderungen und Entwicklungsprozessen in der Aussprachekompetenz von Lernenden.
-Die Webapp stellt nicht nur die vollständigen Aufnahmen einzelner Sprecher:innen zur Verfügung, sondern bietet auch soziodemografische Angaben. Des Weiteren können die einzelnen Wörter und Satzsegmente gezielt und vergleichend angehört werden.
-Das Korpus eignet sich sowohl für die universitäre Lehre als auch für den Einsatz im schulischen Spanischunterricht.</p>
-<p><a href="https://marele.online.uni-marburg.de/" rel="noopener noreferrer" target="_blank">MAR.ELE</a></p>
+<p><strong>MAR.ELE</strong> ist ein Korpusprojekt zur Erforschung der Aussprache des Spanischen als Fremdsprache. Es basiert auf Audio­aufnahmen von Studierenden der Universität Marburg, die sowohl einen fortlaufenden Lesetext als auch eine kontrollierte Wortliste (vgl. FEC-Projekt<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>) eingelesen haben. Das kontinuierlich wachsende Korpus wird zu linguistischen und didaktischen Zwecken veröffentlicht und ermöglicht erstmals systematische empirische Studien zu Schwierigkeiten, Herausforderungen und Entwicklungsprozessen in der Aussprachekompetenz von Lernenden.</p>
+<p>Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativer Forschungsdaten sowie der Bereitstellung eines benutzerfreundlichen Zugangs über eine Webapp. Diese stellt nicht nur die vollständigen Aufnahmen einzelner Sprecher:innen und ihre soziodemografischen Angaben zur Verfügung, sondern erlaubt auch das gezielte und vergleichende Anhören einzelner Wörter und Satzsegmente. Damit eignet sich MAR.ELE gleichermaßen für universitäre Lehre und den schulischen Spanischunterricht.</p>
+<p><a class="md-button md-button--primary" href="https://marele.online.uni-marburg.de/" rel="noopener noreferrer" target="_blank">Zur Web-App <i class="fa-solid fa-up-right-from-square"></i></a></p>
+<hr />
+<h3 id="1-web-app-code-dokumentation">1. Web-App (Code &amp; Dokumentation)</h3>
+<p>Über die Web-App im Browser lassen sich:</p>
+<ul>
+<li>komplette Aufnahmen jeder Teilnehmer:in mit synchronisierter Transkription abspielen  </li>
+<li>unter <strong>„Informant:innen“</strong> soziodemografische Daten einsehen  </li>
+<li>unter <strong>„Analyse“</strong> einzelne Wörter und Textpassagen vergleichen  </li>
+<li>Audio-Snippets herunterladen  </li>
+</ul>
+<hr />
+<p><strong>Screenshots (Webapp)</strong></p>
+<div class="masonry">
+<p><a class="glightbox" href="../assets/images/screenshots/marele_logo.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Marele Logo" src="../assets/images/screenshots/marele_logo.jpg" /></a>
+<a class="glightbox" href="../assets/images/screenshots/marele_player.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Marele Player" src="../assets/images/screenshots/marele_player.jpg" /></a>
+<a class="glightbox" href="../assets/images/screenshots/marele_player2.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Marele Player" src="../assets/images/screenshots/marele_player2.jpg" /></a>
+<a class="glightbox" href="../assets/images/screenshots/marele_analysis.jpg" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Marele Analysis" src="../assets/images/screenshots/marele_analysis.jpg" /></a></p>
+</div>
+<hr />
+<p>Der Quellcode ist als Docker-containerisierte Python-Flask-Anwendung mit CI/CD-Pipeline verfügbar. Jede Version erhält automatisch einen DOI auf Zenodo und bleibt so dauerhaft zitierbar.  </p>
+<p><a href="https://github.com/FTacke/marele-webapp" rel="noopener noreferrer" target="_blank"><img alt="GitHub – MAR.ELE-WebApp" src="https://img.shields.io/badge/GitHub-MAR.ELE--WebApp-181717?logo=github" /></a>
+<a href="https://doi.org/10.5281/zenodo.15373525"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.15373525.svg" /></a></p>
+<hr />
+<h3 id="2-full-corpus-restricted">2. Full Corpus (Restricted)</h3>
+<p>Das vollständige MAR.ELE-Korpus umfasst alle Audio- und Transkriptionsdaten mit Annotationen und Metadaten. Aufgrund datenschutzrechtlicher Vorgaben (personenbezogene pseudonymisierte Sprachaufnahmen) sind die Dateien auf <strong>„Restricted“</strong> gesetzt und nur nach schriftlicher Anfrage zugänglich, während alle Metadaten öffentlich einsehbar bleiben.  </p>
+<p><a href="https://doi.org/10.5281/zenodo.15373537"><img alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.15373537.svg" /></a></p>
+<hr />
+<p>Alle Artefakte sind über eindeutige DOIs zitierbar und folgen den FAIR-Prinzipien, um Nachnutzbarkeit, Interoperabilität und Sichtbarkeit sicherzustellen.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Pustka, E., Gabriel, C., Meisenburg, T., Burkard, M. and Dziallas, K. (2018) “(Inter-)Fonología del Español Contemporáneo (I)FEC: Methodology of a research program for corpus phonology”, Loquens, 5(1), p. e046. doi: /loquens.2018.046.&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -496,7 +583,7 @@ Das Korpus eignet sich sowohl für die universitäre Lehre als auch für den Ein
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "content.footnotes"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
