@@ -8,6 +8,7 @@ El manual digital “Lingüística Española @ School” se ha implementado como
 ---
 **Screenshots**
 <div class="masonry" markdown>
+![Toolkit Logo](assets/images/screenshots/toolkit_logo.png)
 ![Toolkit Light](assets/images/screenshots/toolkit_light.jpg)
 ![Toolkit Dark](assets/images/screenshots/toolkit_dark.jpg)
 ![Toolkit Mobile](assets/images/screenshots/toolkit_mobile.jpg)
