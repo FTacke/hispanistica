@@ -3,7 +3,10 @@ El proyecto se inspiró en el _Linguistic Toolkit for Teachers of English_ del P
 
 El manual digital “Lingüística Española @ School” se ha implementado como un sitio web estático con MkDocs y utiliza el tema “Material for MkDocs” para un diseño moderno y responsive, que ofrece una presentación optimizada y una navegación intuitiva, especialmente en dispositivos móviles.
 
+[Acceder al manual digital  <i class="fa-solid fa-up-right-from-square"></i>](https://ftacke.github.io/spanisch-toolkit/){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
+
 ---
+**Screenshots**
 <div class="masonry" markdown>
 ![Toolkit Light](assets/images/screenshots/toolkit_light.jpg)
 ![Toolkit Dark](assets/images/screenshots/toolkit_dark.jpg)
@@ -11,8 +14,6 @@ El manual digital “Lingüística Española @ School” se ha implementado como
 ![Toolkit Mobile Dark](assets/images/screenshots/toolkit_mobile_dark.jpg)
 </div>
 ---
-
-[Acceder al manual digital  <i class="fa-solid fa-up-right-from-square"></i>](https://ftacke.github.io/spanisch-toolkit/){.md-button .md-button--secondary target="_blank" rel="noopener noreferrer"}
 
 El código fuente está en un repositorio público de [GitHub](https://github.com/FTacke/spanisch-toolkit), y el proyecto está archivado en Zenodo con [DOI](https://doi.org/10.5281/zenodo.15348687) para garantizar una cita permanente. Este proyecto está bajo la licencia Creative Commons CC BY-NC 4.0.
 

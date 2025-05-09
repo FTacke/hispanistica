@@ -4,7 +4,9 @@ theme:
   name: material
   features:
     - toc.integrate
-  logo: assets/images/logo.svg
+    - content.footnotes
+  logo: assets/images/hispanistica_logo.png
+  favicon: assets/images/hispanistica_favicon.png
   palette:
     - scheme: default
       toggle:
@@ -57,3 +59,4 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - footnotes
