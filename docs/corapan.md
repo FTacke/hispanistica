@@ -46,6 +46,8 @@ Aufgrund der urheberrechtlichen Beschränkungen können wir das vollständige Ko
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
 
+---
+
 Alle drei Artefakte sind über eindeutige DOIs zitierbar und folgen den **FAIR-Prinzipien**, um Nachnutzbarkeit, Interoperabilität und Sichtbarkeit sicherzustellen.  
 
 

@@ -48,4 +48,6 @@ Debido a restricciones de derechos de autor, no podemos ofrecer el corpus comple
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
 
+---
+
 Todos los artefactos cuentan con DOI únicos y siguen los **principios FAIR** para asegurar reutilización, interoperabilidad y visibilidad.  
