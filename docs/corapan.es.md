@@ -25,7 +25,7 @@ A través de la aplicación web, las personas usuarias pueden, cómodamente desd
 
 Todo el código de la aplicación se gestiona en un repositorio seguro en la nube y se archiva automáticamente en cada nueva versión. Así, se obtiene para cada release un enlace DOI permanente, que puede citarse en publicaciones.  
 
-[![GitHub – CO.RA.PAN-WebApp](https://img.shields.io/badge/GitHub-CO.RA.PAN--WebApp-181717?logo=github)](https://github.com/USERNAME/CO.RA.PAN-WebApp){target="_blank" rel="noopener noreferrer"}
+[![GitHub – CO.RA.PAN-WebApp](https://img.shields.io/badge/GitHub-CO.RA.PAN--WebApp-181717?logo=github)](https://github.com/FTacke/corapan-webapp){target="_blank" rel="noopener noreferrer"}
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15359652.svg)](https://doi.org/10.5281/zenodo.15359652)
 
 ### 2. Full Corpus (Restringido)
@@ -36,8 +36,16 @@ El corpus completo incluye las 1,5 millones de palabras con archivos de audio or
 
 ### 3. Sample Corpus (Público)
 
-Debido a restricciones de derechos de autor, no podemos ofrecer el corpus completo de forma abierta. En su lugar, proporcionamos un paquete de muestra con transcripciones y fragmentos de audio seleccionados que muestra de forma totalmente transparente la estructura de datos, la alta calidad del procesamiento y los pasos de anotación. Investigadores e investigadoras pueden así comprobar de inmediato cómo están organizados los audios, las transcripciones y las anotaciones, sin esperar a autorizaciones.  
+Debido a restricciones de derechos de autor, no podemos ofrecer el corpus completo de forma abierta. En su lugar, proporcionamos una muestra de las transcripciones que ilustra de forma totalmente transparente la estructura de datos, la alta calidad del procesamiento y los pasos de anotación. Investigadores e investigadoras pueden así comprobar de inmediato cómo están organizados los audios, las transcripciones y las anotaciones, sin esperar a autorizaciones.  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.ZZZZZZZZ.svg)](https://doi.org/10.5281/zenodo.ZZZZZZZZ)
+---
+**Screenshots (Sample Corpus)**
+<div class="masonry" markdown>
+![Corapan Sample 1](assets/images/screenshots/sample1.jpg)
+![Corapan Sample 2](assets/images/screenshots/sample2.jpg)
+</div>
+---
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
 
 Todos los artefactos cuentan con DOI únicos y siguen los **principios FAIR** para asegurar reutilización, interoperabilidad y visibilidad.  
