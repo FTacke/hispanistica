@@ -2,7 +2,11 @@
 title: Hispanistica @ Marburg
 ---
 
-# Projektübersicht
+# Willkommen!
+
+<p align="left">
+  <img src="assets/images/dh_vertikal.png" alt="Digital Humanities Logo" width="400">
+</p>
 
 Auf **Hispanistica** finden Sie einen Überblick über die verschiedenen Digital Humanities-Projekte der hispanistischen Sprachwissenschaft an der Philipps-Universität Marburg unter der Leitung von Prof. Dr. Felix Tacke.
 
