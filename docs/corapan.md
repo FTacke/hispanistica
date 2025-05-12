@@ -36,21 +36,19 @@ Das vollständige Korpus umfasst alle 1,5 Mio. Wörter mit originalen Audiodatei
 ### 3. Sample Corpus (Public)  
 Aufgrund der urheberrechtlichen Beschränkungen können wir das vollständige Korpus nicht frei zugänglich machen. Stattdessen bieten wir ein kompaktes Sample einer Transkription, das die Datenstruktur, die hohe Qualität der Aufbereitung und die annotatorischen Schritte vollständig transparent darstellt. Forscher:innen und Interessierte können so prüfen, wie Audiodaten, Transkriptionen und Annotationen aufgebaut sind, ohne auf Zugriffsfreigaben warten zu müssen.  
 
----
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
+
 **Screenshots (Sample Corpus)**
 <div class="masonry" markdown>
 ![Corapan Sample 1](assets/images/screenshots/sample1.jpg)
 ![Corapan Sample 2](assets/images/screenshots/sample2.jpg)
 </div>
----
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
 
 ---
 
 Alle drei Artefakte sind über eindeutige DOIs zitierbar und folgen den **FAIR-Prinzipien**, um Nachnutzbarkeit, Interoperabilität und Sichtbarkeit sicherzustellen.
 
-[![Hispanistica – CO.RA.PAN](https://img.shields.io/badge/Hispanistica-CO.RA.PAN-4287f5?style=flat&logo=https://raw.githubusercontent.com/FTacke/hispanistica/main/docs/assets/images/hispanistica_badge.svg&logoWidth=20)](https://hispanistica.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
+[![Hispanistica – CO.RA.PAN](https://img.shields.io/badge/Hispanistica-CO.RA.PAN-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
 
 
 

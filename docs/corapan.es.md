@@ -38,16 +38,17 @@ El corpus completo incluye las 1,5 millones de palabras con archivos de audio or
 
 Debido a restricciones de derechos de autor, no podemos ofrecer el corpus completo de forma abierta. En su lugar, proporcionamos una muestra de las transcripciones que ilustra de forma totalmente transparente la estructura de datos, la alta calidad del procesamiento y los pasos de anotación. Investigadores e investigadoras pueden así comprobar de inmediato cómo están organizados los audios, las transcripciones y las anotaciones, sin esperar a autorizaciones.  
 
----
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
+
 **Screenshots (Sample Corpus)**
 <div class="masonry" markdown>
 ![Corapan Sample 1](assets/images/screenshots/sample1.jpg)
 ![Corapan Sample 2](assets/images/screenshots/sample2.jpg)
 </div>
----
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15378479.svg)](https://doi.org/10.5281/zenodo.15378479)
 
 ---
 
 Todos los artefactos cuentan con DOI únicos y siguen los **principios FAIR** para asegurar reutilización, interoperabilidad y visibilidad.  
+
+[![Hispanistica – CO.RA.PAN](https://img.shields.io/badge/Hispanistica-CO.RA.PAN-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
+

@@ -19,8 +19,10 @@ Das digitale Sachbuch „Spanische Linguistik @ School“ ist als statische Webs
 
 Der Quellcode liegt in einem öffentlichen [GitHub-Repository](https://github.com/FTacke/spanisch-toolkit), und das Projekt ist auf Zenodo unter einem [DOI](https://doi.org/10.5281/zenodo.15348687) archiviert, um eine dauerhafte Zitierfähigkeit sicherzustellen. Dieses Projekt steht unter der Creative Commons Lizenz CC BY-NC 4.0.
 
+
 [![GitHub](https://img.shields.io/badge/GitHub-FTacke%2Fspanisch--toolkit-4287f5?style=flat&logo=github&logoColor=white)](https://github.com/FTacke/spanisch-toolkit){target="_blank" rel="noopener noreferrer"}
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15348687.svg)](https://doi.org/10.5281/zenodo.15348687){target="_blank" rel="noopener noreferrer"}  
+[![Hispanistica – Spanische Linguistik @ School](https://img.shields.io/badge/Hispanistica-Spanische Linguistik @ School-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
 ![Material for MkDocs](https://img.shields.io/badge/MkDocs-Material-blue){target="_blank" rel="noopener noreferrer"}
 [![License: CC BY‐NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/){target="_blank" rel="noopener noreferrer"}
 

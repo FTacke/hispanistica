@@ -42,5 +42,6 @@ Das vollständige MAR.ELE-Korpus umfasst alle Audio- und Transkriptionsdaten mit
 
 Alle Artefakte sind über eindeutige DOIs zitierbar und folgen den FAIR-Prinzipien, um Nachnutzbarkeit, Interoperabilität und Sichtbarkeit sicherzustellen.
 
+[![Hispanistica – MAR.ELE](https://img.shields.io/badge/Hispanistica-MAR.ELE-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
 
 [^1]: Pustka, E., Gabriel, C., Meisenburg, T., Burkard, M. and Dziallas, K. (2018) “(Inter-)Fonología del Español Contemporáneo (I)FEC: Methodology of a research program for corpus phonology”, Loquens, 5(1), p. e046. doi: /loquens.2018.046.
