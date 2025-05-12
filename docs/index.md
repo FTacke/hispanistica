@@ -15,13 +15,13 @@ Korpusprojekt mit 1,5 Mio. Wörtern aus Nachrichtensendungen aus fast allen hisp
 
 
 ###[MAR.ELE](marele.md)  
-![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}  
+![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}(marele/)    
   
 Korpus zur Erforschung der Aussprache des Spanischen als Fremdsprache auf Basis von Audioaufnahmen die mit Spanischstudierenden unterschiedlicher Sprachniveaus durchgeführt wurden. Die eigens programmierte Webapp bietet Zugang zu den vollständigen Aufnahmen, soziodemografischen Angaben und ermöglicht die vergleichende Analyse von Audiosegmenten. [Mehr erfahren...](marele.md)
 
 
 ###[Spanische Linguistik @ School](spanisch-toolkit.md)  
-![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}  
+![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}(spanisch-toolkit/)  
   
 Digitales Sachbuch für Spanischlehrkräfte mit verständlichen Einführungen in zentrale sprachwissenschaftliche Themen. Das Buch wird im Rahmen eines Lehrprojektes kollaborativ mit Studierenden entwickelt und kontinuierlich erweitert. [Mehr erfahren...](spanisch-toolkit.md)
 
