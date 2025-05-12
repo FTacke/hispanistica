@@ -4,20 +4,26 @@ title: Hispanistica @ Marburg
 
 # Willkommen!
 
-<p align="left">
-  <img src="assets/images/dh_vertikal.png" alt="Digital Humanities Logo" width="400">
-</p>
+![Hispanistica Logo](assets/images/hispanistica_breit.png){width=400px}
 
 Auf **Hispanistica** finden Sie einen Überblick über die verschiedenen Digital Humanities-Projekte der hispanistischen Sprachwissenschaft an der Philipps-Universität Marburg unter der Leitung von Prof. Dr. Felix Tacke.
 
-[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
-Korpusprojekt mit 1,5 Mio. Wörtern aus Nachrichtensendungen aus fast allen hispanophonen Ländern, das erstmals die systematische Erforschung der Plurizentrik des Spanischen ermöglicht. Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativer Forschungsdaten sowie der Bereitstellung eines benutzerfreundlichen Zugangs über eine Webapp, welche den Zugriff auf die aufbereiteten Transkriptionen, annotierten sprachlichen Daten und die Audiodaten ermöglicht.
+###[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
+[![CO.RA.PAN Logo](assets/images/corapan_breit.png){width=400px}](corapan/)  
+  
+Korpusprojekt mit 1,5 Mio. Wörtern aus Nachrichtensendungen aus fast allen hispanophonen Ländern, das erstmals die systematische Erforschung der Plurizentrik des Spanischen ermöglicht. Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativer Forschungsdaten sowie der Bereitstellung eines benutzerfreundlichen Zugangs über eine Webapp, welche den Zugriff auf die aufbereiteten Transkriptionen, annotierten sprachlichen Daten und die Audiodaten ermöglicht. [Mehr erfahren...](corapan.md)
 
-[MAR.ELE](marele.md)  
-Korpus zur Erforschung der Aussprache des Spanischen als Fremdsprache auf Basis von Audioaufnahmen die mit Spanischstudierenden unterschiedlicher Sprachniveaus durchgeführt wurden. Die eigens programmierte Webapp bietet Zugang zu den vollständigen Aufnahmen, soziodemografischen Angaben und ermöglicht die vergleichende Analyse von Audiosegmenten.
 
-[Spanische Linguistik @ School](spanisch-toolkit.md)  
-Digitales Sachbuch für Spanischlehrkräfte mit verständlichen Einführungen in zentrale sprachwissenschaftliche Themen. Das Buch wird im Rahmen eines Lehrprojektes kollaborativ mit Studierenden entwickelt und kontinuierlich erweitert.   
+###[MAR.ELE](marele.md)  
+![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}  
+  
+Korpus zur Erforschung der Aussprache des Spanischen als Fremdsprache auf Basis von Audioaufnahmen die mit Spanischstudierenden unterschiedlicher Sprachniveaus durchgeführt wurden. Die eigens programmierte Webapp bietet Zugang zu den vollständigen Aufnahmen, soziodemografischen Angaben und ermöglicht die vergleichende Analyse von Audiosegmenten. [Mehr erfahren...](marele.md)
+
+
+###[Spanische Linguistik @ School](spanisch-toolkit.md)  
+![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}  
+  
+Digitales Sachbuch für Spanischlehrkräfte mit verständlichen Einführungen in zentrale sprachwissenschaftliche Themen. Das Buch wird im Rahmen eines Lehrprojektes kollaborativ mit Studierenden entwickelt und kontinuierlich erweitert. [Mehr erfahren...](spanisch-toolkit.md)
 
 ## Die Idee dahinter
 

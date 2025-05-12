@@ -4,20 +4,24 @@ title: Hispanística @ Marburgo
 
 # ¡Bienvenid@!
 
-<p align="left">
-  <img src="/assets/images/dh_vertikal.png" alt="Digital Humanities Logo" width="400">
-</p>
+![Hispanistica Logo](assets/images/hispanistica_breit.png){width=400px}
 
 En **Hispanística** se presenta una visión general de los distintos proyectos de Humanidades Digitales en el ámbito de la lingüística hispánica en la Universidad Philipps de Marburgo, bajo la dirección del Prof. Dr. Felix Tacke.
 
-[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
-Proyecto de corpus con 1,5 millones de palabras procedentes de noticieros de casi todos los países hispanohablantes, que permite por primera vez una investigación sistemática sobre la pluricentricidad del español. El proyecto combina la recopilación y el procesamiento de datos lingüísticos de alta calidad con una aplicación web que facilita el acceso a las transcripciones corregidas, los datos lingüísticos anotados y los archivos de audio.
+###[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
+[![CO.RA.PAN Logo](assets/images/corapan_breit.png){width=400px}](corapan/)  
+  
+Proyecto de corpus con 1,5 millones de palabras procedentes de noticieros de casi todos los países hispanohablantes, que permite por primera vez una investigación sistemática sobre la pluricentricidad del español. El proyecto combina la recopilación y el procesamiento de datos lingüísticos de alta calidad con una aplicación web que facilita el acceso a las transcripciones corregidas, los datos lingüísticos anotados y los archivos de audio. [Saber más...](corapan.md)
 
-[MAR.ELE](marele.md)  
-Corpus para el estudio de la pronunciación del español como lengua extranjera, basado en grabaciones de estudiantes de español de distintos niveles de competencia. La aplicación web desarrollada específicamente permite acceder a las grabaciones completas, a información sociodemográfica y a un análisis comparativo de segmentos de audio.
+###[MAR.ELE](marele.md)  
+![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}  
+  
+Corpus para el estudio de la pronunciación del español como lengua extranjera, basado en grabaciones de estudiantes de español de distintos niveles de competencia. La aplicación web desarrollada específicamente permite acceder a las grabaciones completas, a información sociodemográfica y a un análisis comparativo de segmentos de audio. [Saber más...](marele.md)
 
-[Lingüística del español @ School](spanisch-toolkit.md)  
-Libro digital dirigido a docentes de español, con introducciones accesibles a temas clave de la lingüística hispánica. El libro se desarrolla colaborativamente con estudiantes en el marco de un proyecto docente y se amplía de forma continua.
+###[Spanische Linguistik @ School](spanisch-toolkit.md)  
+![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}  
+  
+Libro digital dirigido a docentes de español, con introducciones accesibles a temas clave de la lingüística hispánica. El libro se desarrolla colaborativamente con estudiantes en el marco de un proyecto docente y se amplía de forma continua. [Saber más...](spanisch-toolkit.md)
 
 ## La idea detrás
 
