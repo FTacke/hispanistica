@@ -26,4 +26,4 @@ La disponibilidad de modelos de lenguaje de gran escala (LLMs) y de inteligencia
 Nuestro enfoque se inspira en el espíritu del código abierto y pretende también aportar a la comunidad. Por ello, todo el código fuente de nuestros proyectos, junto con una documentación detallada, está disponible en GitHub:
 
 [![GitHub](https://img.shields.io/badge/GitHub-FTacke-4287f5?style=flat&logo=github&logoColor=white)](https://github.com/FTacke){target="_blank" rel="noopener noreferrer"}
-[![Hispanistica – Portal](https://img.shields.io/badge/Hispanistica-CO.RA.PAN-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
+[![Hispanistica – Portal](https://img.shields.io/badge/Hispanistica-Portal-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
