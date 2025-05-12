@@ -8,13 +8,6 @@
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
     </url>
     <url>
-        <loc>Noneabout/</loc>
-        <lastmod>2025-05-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="Noneabout/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/about/"/>
-    </url>
-    <url>
         <loc>Nonecorapan/</loc>
         <lastmod>2025-05-12</lastmod>
         <changefreq>daily</changefreq>
@@ -48,13 +41,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
         <xhtml:link rel="alternate" hreflang="de" href="None"/>
-    </url>
-    <url>
-        <loc>Nonees/about/</loc>
-        <lastmod>2025-05-12</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="es" href="Nonees/about/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="Noneabout/"/>
     </url>
     <url>
         <loc>Nonees/corapan/</loc>
