@@ -14,12 +14,12 @@ En **Hispanística** se presenta una visión general de los distintos proyectos 
 Proyecto de corpus con 1,5 millones de palabras procedentes de noticieros de casi todos los países hispanohablantes, que permite por primera vez una investigación sistemática sobre la pluricentricidad del español. El proyecto combina la recopilación y el procesamiento de datos lingüísticos de alta calidad con una aplicación web que facilita el acceso a las transcripciones corregidas, los datos lingüísticos anotados y los archivos de audio. [Saber más...](corapan.md)
 
 ###[MAR.ELE](marele.md)  
-![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}(marele/)  
+[![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}](marele/)  
   
 Corpus para el estudio de la pronunciación del español como lengua extranjera, basado en grabaciones de estudiantes de español de distintos niveles de competencia. La aplicación web desarrollada específicamente permite acceder a las grabaciones completas, a información sociodemográfica y a un análisis comparativo de segmentos de audio. [Saber más...](marele.md)
 
 ###[Spanische Linguistik @ School](spanisch-toolkit.md)  
-![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}(spanisch-toolkit/)  
+[![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}](spanisch-toolkit/)  
   
 Libro digital dirigido a docentes de español, con introducciones accesibles a temas clave de la lingüística hispánica. El libro se desarrolla colaborativamente con estudiantes en el marco de un proyecto docente y se amplía de forma continua. [Saber más...](spanisch-toolkit.md)
 
