@@ -48,6 +48,9 @@ Aufgrund der urheberrechtlichen Beschränkungen können wir das vollständige Ko
 
 ---
 
-Alle drei Artefakte sind über eindeutige DOIs zitierbar und folgen den **FAIR-Prinzipien**, um Nachnutzbarkeit, Interoperabilität und Sichtbarkeit sicherzustellen.  
+Alle drei Artefakte sind über eindeutige DOIs zitierbar und folgen den **FAIR-Prinzipien**, um Nachnutzbarkeit, Interoperabilität und Sichtbarkeit sicherzustellen.
+
+[![Hispanistica – CO.RA.PAN](https://img.shields.io/badge/Hispanistica-CO.RA.PAN-4287f5?style=flat&logo=https://raw.githubusercontent.com/FTacke/hispanistica/main/docs/assets/images/hispanistica_badge.svg&logoWidth=20)](https://hispanistica.uni-marburg.de){target="_blank" rel="noopener noreferrer"}
+
 
 
