@@ -32,4 +32,4 @@ Durch die Verfügbarkeit von Large Language Models (LLMs) und generativer KI er�
 Unser Ansatz profitiert vom Open-Source-Gedanken und möchte selbst Impulse zurückgeben. Den gesamten Quellcode unserer Projekte einschließlich ausführlicher Dokumentation finden Sie daher auf GitHub:
 
 [![GitHub](https://img.shields.io/badge/GitHub-FTacke-4287f5?style=flat&logo=github&logoColor=white)](https://github.com/FTacke){target="_blank" rel="noopener noreferrer"}
-[![Hispanistica – Portal](https://img.shields.io/badge/Hispanistica-Portal-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}  
+[![Hispanistica – @ Marburg](https://img.shields.io/badge/Hispanistica-@ Marburg-4287f5?style=flat)](https://hispanistica.online.uni-marburg.de){target="_blank" rel="noopener noreferrer"}  
