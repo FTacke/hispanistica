@@ -6,20 +6,20 @@ title: Hispanística @ Marburgo
 
 ![Hispanistica Logo](assets/images/hispanistica_breit.png){width=400px}
 
-En **Hispanística** se presenta una visión general de los distintos proyectos de Humanidades Digitales en el ámbito de la lingüística hispánica en la Universidad Philipps de Marburgo, bajo la dirección del Prof. Dr. Felix Tacke.
+En **Hispanística** se presenta una visión general de los distintos proyectos de Humanidades Digitales en el ámbito de la lingüística hispánica en la Universidad Philipps de Marburgo, bajo la dirección del [Profesor Felix Tacke](https://www.uni-marburg.de/de/fb10/romanistik/institut/ordner_lehrende/felix-tacke){target="_blank" rel="noopener noreferrer"}.
 
 ###[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
-[![CO.RA.PAN Logo](assets/images/corapan_breit.png){width=400px}](corapan/)  
+[![CO.RA.PAN Logo](assets/images/corapan_breit.png){width=400px}](corapan.md)  
   
 Proyecto de corpus con 1,5 millones de palabras procedentes de noticieros de casi todos los países hispanohablantes, que permite por primera vez una investigación sistemática sobre la pluricentricidad del español. El proyecto combina la recopilación y el procesamiento de datos lingüísticos de alta calidad con una aplicación web que facilita el acceso a las transcripciones corregidas, los datos lingüísticos anotados y los archivos de audio. [Saber más...](corapan.md)
 
 ###[MAR.ELE](marele.md)  
-[![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}](marele/)  
+[![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}](marele.md)  
   
 Corpus para el estudio de la pronunciación del español como lengua extranjera, basado en grabaciones de estudiantes de español de distintos niveles de competencia. La aplicación web desarrollada específicamente permite acceder a las grabaciones completas, a información sociodemográfica y a un análisis comparativo de segmentos de audio. [Saber más...](marele.md)
 
 ###[Spanische Linguistik @ School](spanisch-toolkit.md)  
-[![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}](spanisch-toolkit/)  
+[![Spanisch Toolkit Logo](assets/images/toolkit_breit.png){width=400px}](spanisch-toolkit.md)  
   
 Libro digital dirigido a docentes de español, con introducciones accesibles a temas clave de la lingüística hispánica. El libro se desarrolla colaborativamente con estudiantes en el marco de un proyecto docente y se amplía de forma continua. [Saber más...](spanisch-toolkit.md)
 

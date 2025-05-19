@@ -15,7 +15,6 @@ Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativ
 - unter **„Analyse“** einzelne Wörter und Textpassagen vergleichen  
 - Audio-Snippets herunterladen  
 
----
 **Screenshots (Webapp)**
 <div class="masonry" markdown>
 ![Marele Logo](assets/images/screenshots/marele_logo.jpg)
@@ -23,7 +22,6 @@ Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativ
 ![Marele Player](assets/images/screenshots/marele_player2.jpg)
 ![Marele Analysis](assets/images/screenshots/marele_analysis.jpg)
 </div>
----
 
 Der Quellcode ist als Docker-containerisierte Python-Flask-Anwendung mit CI/CD-Pipeline verfügbar. Jede Version erhält automatisch einen DOI auf Zenodo und bleibt so dauerhaft zitierbar.  
 

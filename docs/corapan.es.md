@@ -1,6 +1,8 @@
 **CO.RA.PAN** significa “Corpus Radiofónico Panhispánico”. Se trata de un extenso proyecto de corpus para la investigación sistemática de la pluricentricidad del español a partir de la lengua estándar hablada. Reúne cerca de 1,5 millones de palabras extraídas de los informativos de las emisoras principales de casi todos los países hispanohablantes (excepto Guinea Ecuatorial), con al menos seis horas de audio por país. Los datos de audio se han transcrito mediante métodos asistidos por IA, se han anotado lingüísticamente (por ejemplo, tipo de hablante, situación de habla) y se han preparado en una base de datos relacional para su consulta. Por primera vez, se dispone de datos de investigación de alta calidad y comparables para toda la Hispanofonía.
 
-[Ir al Corpus en línea <i class="fa-solid fa-up-right-from-square"></i>](https://corapan.online.uni-marburg.de){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
+[Ir al Corpus en línea <i class="fa-solid fa-up-right-from-square"></i>](https://corapan.online.uni-marburg.de){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}  
+
+---
 
 ### 1. Aplicación web (Código y documentación)
 
@@ -11,7 +13,6 @@ A través de la aplicación web, las personas usuarias pueden, cómodamente desd
 - filtrar resultados por país, emisora, tipo de hablante y situación de habla  
 - descargar fragmentos de audio y generar espectrogramas  
 
----
 **Screenshots (Webapp)**
 <div class="masonry" markdown>
 ![Corapan Logo](assets/images/screenshots/corapan_logo.jpg)
@@ -21,18 +22,21 @@ A través de la aplicación web, las personas usuarias pueden, cómodamente desd
 ![Corapan Mobile](assets/images/screenshots/corapan_mobile1.jpg)
 ![Corapan Mobile](assets/images/screenshots/corapan_mobile2.jpg)
 </div>
----
 
 Todo el código de la aplicación se gestiona en un repositorio seguro en la nube y se archiva automáticamente en cada nueva versión. Así, se obtiene para cada release un enlace DOI permanente, que puede citarse en publicaciones.  
 
 [![GitHub – CO.RA.PAN-WebApp](https://img.shields.io/badge/GitHub-CO.RA.PAN--WebApp-181717?logo=github)](https://github.com/FTacke/corapan-webapp){target="_blank" rel="noopener noreferrer"}
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15359652.svg)](https://doi.org/10.5281/zenodo.15359652)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15359652.svg)](https://doi.org/10.5281/zenodo.15359652)  
+
+---
 
 ### 2. Full Corpus (Restringido)
 
 El corpus completo incluye las 1,5 millones de palabras con archivos de audio originales, transcripciones revisadas y anotaciones exhaustivas. En Zenodo se muestran públicamente los metadatos, mientras que los datos en sí están protegidos (“Restricted”) por derechos de autor y solo se facilitan tras evaluación de la solicitud. Este modelo de acceso diferenciado garantiza la disponibilidad a largo plazo y la protección de contenidos sensibles.  
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15360942.svg)](https://doi.org/10.5281/zenodo.15360942)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15360942.svg)](https://doi.org/10.5281/zenodo.15360942)  
+
+---
 
 ### 3. Sample Corpus (Público)
 

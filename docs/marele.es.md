@@ -15,7 +15,6 @@ En el navegador, la aplicación web permite:
 - comparar y escuchar palabras y pasajes de texto en **“Análisis”**  
 - descargar fragmentos de audio  
 
----
 **Screenshots (Webapp)**
 <div class="masonry" markdown>
 ![Marele Logo](assets/images/screenshots/marele_logo.jpg)
@@ -23,7 +22,6 @@ En el navegador, la aplicación web permite:
 ![Marele Player](assets/images/screenshots/marele_player2.jpg)
 ![Marele Analysis](assets/images/screenshots/marele_analysis.jpg)
 </div>
----
 
 El código fuente está disponible como una aplicación Python-Flask containerizada con Docker y con integración CI/CD. Cada versión recibe automáticamente un DOI en Zenodo, garantizando su citabilidad permanente.
 
