@@ -11,7 +11,7 @@ Auf **Hispanistica** finden Sie einen Überblick über die verschiedenen Digital
 ###[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
 [![CO.RA.PAN Logo](assets/images/corapan_breit.png){width=400px}](corapan.md)  
   
-Korpusprojekt mit 1,5 Mio. Wörtern aus Nachrichtensendungen aus fast allen hispanophonen Ländern, das erstmals die systematische Erforschung der Plurizentrik des Spanischen ermöglicht. Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativer Forschungsdaten sowie der Bereitstellung eines benutzerfreundlichen Zugangs über eine Webapp, welche den Zugriff auf die aufbereiteten Transkriptionen, annotierten sprachlichen Daten und die Audiodaten ermöglicht. [Mehr erfahren...](corapan.md)
+Korpusprojekt mit ca. 1,4 Mio. Wörtern aus Nachrichtensendungen aus fast allen hispanophonen Ländern, das erstmals die systematische Erforschung der Plurizentrik des Spanischen ermöglicht. Das Projekt setzt sich zusammen aus der Sammlung und Aufbereitung hochqualitativer Forschungsdaten sowie der Bereitstellung eines benutzerfreundlichen Zugangs über eine Webapp, welche den Zugriff auf die aufbereiteten Transkriptionen, annotierten sprachlichen Daten und die Audiodaten ermöglicht. [Mehr erfahren...](corapan.md)
 
 
 ###[MAR.ELE](marele.md)  

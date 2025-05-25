@@ -11,7 +11,7 @@ En **Hispanística** se presenta una visión general de los distintos proyectos 
 ###[CO.RA.PAN (Corpus Radiofónico Panhispánico)](corapan.md)  
 [![CO.RA.PAN Logo](assets/images/corapan_breit.png){width=400px}](corapan.md)  
   
-Proyecto de corpus con 1,5 millones de palabras procedentes de noticieros de casi todos los países hispanohablantes, que permite por primera vez una investigación sistemática sobre la pluricentricidad del español. El proyecto combina la recopilación y el procesamiento de datos lingüísticos de alta calidad con una aplicación web que facilita el acceso a las transcripciones corregidas, los datos lingüísticos anotados y los archivos de audio. [Saber más...](corapan.md)
+Proyecto de corpus con aprox. 1,4 millones de palabras procedentes de noticieros de casi todos los países hispanohablantes, que permite por primera vez una investigación sistemática sobre la pluricentricidad del español. El proyecto combina la recopilación y el procesamiento de datos lingüísticos de alta calidad con una aplicación web que facilita el acceso a las transcripciones corregidas, los datos lingüísticos anotados y los archivos de audio. [Saber más...](corapan.md)
 
 ###[MAR.ELE](marele.md)  
 [![MAR.ELE Logo](assets/images/marele_breit.png){width=400px}](marele.md)  
