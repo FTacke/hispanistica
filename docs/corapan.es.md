@@ -32,7 +32,7 @@ Todo el código de la aplicación se gestiona en un repositorio seguro en la nub
 
 ### 2. Full Corpus (Restringido)
 
-El corpus completo incluye las 1,5 millones de palabras con archivos de audio originales, transcripciones revisadas y anotaciones exhaustivas. En Zenodo se muestran públicamente los metadatos, mientras que los datos en sí están protegidos (“Restricted”) por derechos de autor y solo se facilitan tras evaluación de la solicitud. Este modelo de acceso diferenciado garantiza la disponibilidad a largo plazo y la protección de contenidos sensibles.  
+El corpus completo incluye las 1,4 millones de palabras con archivos de audio originales, transcripciones revisadas y anotaciones exhaustivas. En Zenodo se muestran públicamente los metadatos, mientras que los datos en sí están protegidos (“Restricted”) por derechos de autor y solo se facilitan tras evaluación de la solicitud. Este modelo de acceso diferenciado garantiza la disponibilidad a largo plazo y la protección de contenidos sensibles.  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15360942.svg)](https://doi.org/10.5281/zenodo.15360942)  
 

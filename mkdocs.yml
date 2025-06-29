@@ -3,7 +3,6 @@ site_name: Hispanistica @ Marburg
 theme:
   name: material
   features:
-    - toc.integrate
     - content.footnotes
   logo: assets/images/hispanistica_logo.png
   favicon: assets/images/hispanistica_favicon.png
@@ -29,33 +28,28 @@ extra_css:
   - stylesheets/overrides.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
 
+nav:
+  - Start: index.md
+  - Projekte:
+      - CO.RA.PAN: corapan.md
+      - MAR.ELE: marele.md
+      - Spanische Linguistik @ School: spanisch-toolkit.md
+  - Impressum: impressum.md
+
 plugins:
   - search
   - glightbox
   - i18n:
       languages:
         - locale: de
-          name: Deutsch
           default: true
-          build: true
-          nav:
-            - Start: index.md
-            - Projekte:
-                - CO.RA.PAN: corapan.md
-                - MAR.ELE: marele.md
-                - Spanische Linguistik @ School: spanisch-toolkit.md
-            - Impressum: impressum.md
-
+          name: Deutsch
         - locale: es
           name: Español
-          build: true
-          nav:
-            - Inicio: index.es.md
-            - Proyectos:
-                - CO.RA.PAN: corapan.es.md
-                - MAR.ELE: marele.es.md
-                - Spanische Linguistik @ School: spanisch-toolkit.es.md
-            - Aviso legal: impressum.es.md
+          nav_translations:
+            Start: Inicio
+            Projekte: Proyectos
+            Impressum: Aviso legal
 
 markdown_extensions:
   - attr_list

@@ -31,7 +31,7 @@ Unser gesamter Anwendungs­code wird in einem sicheren, cloud­basierten Reposit
 ---
 
 ### 2. Full Corpus (Restricted)  
-Das vollständige Korpus umfasst alle 1,5 Mio. Wörter mit originalen Audiodateien, überarbeiteten Transkriptionen und umfassenden Annotationen. In Zenodo werden Metadaten öffentlich angezeigt, während die Daten selbst aufgrund des Urheberrechts geschützt („Restricted“) sind und nur nach Prüfung freigegeben werden können. Dieses differenzierte Zugangsmodell sichert langfristige Verfügbarkeit und Datenschutz sensibler Inhalte.
+Das vollständige Korpus umfasst alle 1,4 Mio. Wörter mit originalen Audiodateien, überarbeiteten Transkriptionen und umfassenden Annotationen. In Zenodo werden Metadaten öffentlich angezeigt, während die Daten selbst aufgrund des Urheberrechts geschützt („Restricted“) sind und nur nach Prüfung freigegeben werden können. Dieses differenzierte Zugangsmodell sichert langfristige Verfügbarkeit und Datenschutz sensibler Inhalte.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15360942.svg)](https://doi.org/10.5281/zenodo.15360942)
 
