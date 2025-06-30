@@ -3,7 +3,7 @@ El proyecto se inspiró en el _Linguistic Toolkit for Teachers of English_ del P
 
 El manual digital “Lingüística Española @ School” se ha implementado como un sitio web estático con MkDocs y utiliza el tema “Material for MkDocs” para un diseño moderno y responsive, que ofrece una presentación optimizada y una navegación intuitiva, especialmente en dispositivos móviles.
 
-[Acceder al manual digital  <i class="fa-solid fa-up-right-from-square"></i>](https://ftacke.github.io/spanisch-toolkit/){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
+[Acceder al manual digital  <i class="fa-solid fa-up-right-from-square"></i>](https://https://linguistik.online.uni-marburg.de/){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 ---
 **Screenshots**

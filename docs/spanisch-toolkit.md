@@ -3,7 +3,7 @@ Das Projekt wurde inspiriert vom *Linguistic Toolkit for Teachers of English* vo
 
 Das digitale Sachbuch „Spanische Linguistik @ School“ ist als statische Website mit MkDocs umgesetzt und nutzt das „Material for MkDocs“-Theme für ein modernes, responsives Design, das insbesondere auf mobilen Endgeräten eine optimierte Darstellung und intuitive Navigation bietet.
 
-[Zum digitalen Sachbuch <i class="fa-solid fa-up-right-from-square"></i>](https://ftacke.github.io/spanisch-toolkit/){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
+[Zum digitalen Sachbuch <i class="fa-solid fa-up-right-from-square"></i>](https://linguistik.online.uni-marburg.de/){.md-button .md-button--primary target="_blank" rel="noopener noreferrer"}
 
 ---
 **Screenshots**
