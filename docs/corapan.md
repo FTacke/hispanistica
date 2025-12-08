@@ -1,18 +1,18 @@
 <div class="hisp-hero">
-<div class="hisp-hero__inner">
-<div class="hisp-hero__content">
-<h1 class="hisp-hero__title">CO.RA.PAN — Corpus Radiofónico Panhispánico</h1>
-<p class="hisp-hero__subtitle">
-A comprehensive, time-aligned and linguistically annotated corpus of spoken radio news from across the Spanish-speaking world. CO.RA.PAN documents contemporary pluricentric Spanish through more than 1.4 million words of professionally produced broadcast speech.
-</p>
-<p class="hisp-hero__logo">
-<img src="/assets/images/corapan_breit.png" alt="CO.RA.PAN Logo">
-</p>
-<p>
-<a href="https://corapan.online.uni-marburg.de/" class="md-button md-button--primary" target="_blank" rel="noopener noreferrer">Open Web App <i class="fa-solid fa-up-right-from-square"></i></a>
-</p>
-</div>
-</div>
+  <div class="hisp-hero__inner">
+    <div class="hisp-hero__content">
+      <h1 class="hisp-hero__title">CO.RA.PAN — Corpus Radiofónico Panhispánico</h1>
+      <p class="hisp-hero__subtitle">
+        A comprehensive, time-aligned and linguistically annotated corpus of spoken radio news from across the Spanish-speaking world. CO.RA.PAN documents contemporary pluricentric Spanish through more than 1.4 million words of professionally produced broadcast speech.
+      </p>
+      <p class="hisp-hero__logo">
+        <a href="https://corapan.online.uni-marburg.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/corapan_breit.png" alt="CO.RA.PAN Logo"></a>
+      </p>
+      <p>
+        <a href="https://corapan.online.uni-marburg.de/" class="md-button md-button--primary" target="_blank" rel="noopener noreferrer">Open Web App <i class="fa-solid fa-up-right-from-square"></i></a>
+      </p>
+    </div>
+  </div>
 </div>
 
 ---

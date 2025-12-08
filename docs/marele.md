@@ -7,7 +7,7 @@
         MAR.ELE combines high-quality audio, carefully aligned transcriptions, and rich metadata within a unified analytical environment.
       </p>
       <p class="hisp-hero__logo">
-        <img src="/assets/images/marele_breit.png" alt="MAR.ELE Logo">
+        <a href="https://marele.online.uni-marburg.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/marele_breit.png" alt="MAR.ELE Logo"></a>
       </p>
       <p>
         <a href="https://marele.online.uni-marburg.de/" class="md-button md-button--primary" target="_blank" rel="noopener noreferrer">Open Web App <i class="fa-solid fa-up-right-from-square"></i></a>

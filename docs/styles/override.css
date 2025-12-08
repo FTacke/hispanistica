@@ -105,6 +105,18 @@
   font-weight: 500;
   min-height: 38px;
   padding: 0.3rem 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+}
+
+/* Ensure icons inside buttons align properly */
+.md-typeset .md-button i,
+.md-typeset .md-button .fa-solid,
+.md-typeset .md-button .fa-regular {
+  font-size: 0.85em;
+  line-height: 1;
 }
 
 /* Primary button: light capsule on dark ground */

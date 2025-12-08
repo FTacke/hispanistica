@@ -6,11 +6,10 @@
         An open digital reference work designed for teachers, student teachers, and linguistics-oriented practitioners in Spanish language education. Built with MkDocs and the Material for MkDocs theme, this digital toolkit integrates linguistic theory, multilingual corpora, audio materials, and didactic guidance within a unified, modular, and easily extensible static-site framework.
       </p>
       <p class="hisp-hero__logo">
-        <img src="/assets/images/toolkit_breit.png" alt="Spanish Linguistics @ School Logo">
+        <a href="https://linguistik.online.uni-marburg.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/toolkit_breit.png" alt="Spanish Linguistics @ School Logo"></a>
       </p>
       <p>
-        <a href="https://linguistik.online.uni-marburg.de/" class="md-button md-button--primary" target="_blank" rel="noopener noreferrer">
-          Open Digital Reference Book <i class="fa-solid fa-up-right-from-square"></i></a>
+        <a href="https://linguistik.online.uni-marburg.de/" class="md-button md-button--primary" target="_blank" rel="noopener noreferrer">Open Digital Reference Book <i class="fa-solid fa-up-right-from-square"></i></a>
       </p>
     </div>
   </div>
