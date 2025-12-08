@@ -130,14 +130,15 @@
 .hisp-card-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: 1fr; /* ensure same height rows */
   gap: var(--space-4);
-  align-items: stretch;
+  align-items: start; /* mobile: cards size to content */
 }
 
 @media (min-width: 768px) {
   .hisp-card-grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr; /* desktop: equal height rows */
+    align-items: stretch;
   }
 }
 
@@ -145,14 +146,15 @@
 .hisp-card-grid--3col {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: 1fr; /* equalize heights across rows */
   gap: var(--space-4);
-  align-items: stretch;
+  align-items: start; /* mobile: cards size to content */
 }
 
 @media (min-width: 768px) {
   .hisp-card-grid--3col {
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr; /* desktop: equal height rows */
+    align-items: stretch;
   }
 }
 
@@ -282,6 +284,13 @@
 .hisp-hero__logo {
   flex: 0 0 auto;
   max-width: 240px;
+  margin: 0;
+}
+
+/* Logo inside hero content (between text and button) */
+.hisp-hero__content .hisp-hero__logo {
+  max-width: 280px;
+  margin: var(--space-4) 0;
 }
 
 .hisp-hero__logo img {

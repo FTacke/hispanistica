@@ -6,6 +6,9 @@
         A corpus of learner pronunciation in Spanish, designed to support empirical research, teaching, and the study of spoken interlanguage varieties.
         MAR.ELE combines high-quality audio, carefully aligned transcriptions, and rich metadata within a unified analytical environment.
       </p>
+      <p class="hisp-hero__logo">
+        <img src="/assets/images/marele_breit.png" alt="MAR.ELE Logo">
+      </p>
       <p>
         <a href="https://marele.online.uni-marburg.de/" class="md-button md-button--primary" target="_blank" rel="noopener noreferrer">Open Web App <i class="fa-solid fa-up-right-from-square"></i></a>
       </p>
