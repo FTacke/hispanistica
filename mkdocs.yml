@@ -2,54 +2,36 @@ site_name: Hispanistica @ Marburg
 
 theme:
   name: material
+  language: en
   features:
     - content.footnotes
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
   logo: assets/images/hispanistica_logo.png
   favicon: assets/images/hispanistica_favicon.png
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Dunkler Modus
-      default: true
-      primary: indigo
-      accent: teal
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Heller Modus
-      primary: indigo
-      accent: teal
-      background: slate.lighten-5
-      surface: slate.lighten-4
-      text: slate.darken-3
+    scheme: default
+    primary: custom
+    accent: custom
 
 extra_css:
-  - stylesheets/overrides.css
+  - styles/md3-tokens.css
+  - styles/override.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
 
 nav:
-  - Start: index.md
-  - Projekte:
+  - Home: index.md
+  - Projects:
       - CO.RA.PAN: corapan.md
       - MAR.ELE: marele.md
-      - Spanische Linguistik @ School: spanisch-toolkit.md
+      - Spanish Linguistics @ School: toolkit.md
   - Impressum: impressum.md
 
 plugins:
   - search
   - glightbox
-  - i18n:
-      languages:
-        - locale: de
-          default: true
-          name: Deutsch
-        - locale: es
-          name: Español
-          nav_translations:
-            Start: Inicio
-            Projekte: Proyectos
-            Impressum: Aviso legal
 
 markdown_extensions:
   - attr_list

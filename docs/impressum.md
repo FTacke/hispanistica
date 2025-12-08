@@ -1,101 +1,100 @@
 ---
-title: Impressum & Datenschutz
+title: Impressum & Privacy Policy
 ---
 
 # Impressum
 
-## Anbieter dieser Internetpräsenz im Rechtssinne ist die  
+## Provider of this Website in the Legal Sense  
 Philipps-Universität Marburg  
-Der Präsident  
+The President  
 Prof. Dr. Thomas Nauss  
 Biegenstraße 10  
-35037 Marburg  
-Tel.: +49 6421 28-20  
+35037 Marburg, Germany  
+Phone: +49 6421 28-20  
 Fax: +49 6421 28-22500  
-Internet: https://www.uni-marburg.de  
-E-Mail: info@uni-marburg.de
+Website: https://www.uni-marburg.de  
+Email: info@uni-marburg.de
 
-#### Umsatzsteuer-Identifikationsnummer  
+#### VAT Identification Number  
 DE 112590692
 
-#### Postanschrift  
+#### Postal Address  
 Philipps-Universität Marburg  
-Postfach  
-35032 Marburg
+P.O. Box  
+35032 Marburg, Germany
 
-#### Zuständige Aufsichtsbehörde  
-Hessisches Ministerium für Wissenschaft und Kunst  
-Rheinstraße 23 – 25  
-65185 Wiesbaden
+#### Supervisory Authority  
+Hessian Ministry of Science and Art  
+Rheinstraße 23–25  
+65185 Wiesbaden, Germany
 
-#### Verantwortlicher für diese Projektseite  
+#### Responsible for this Project Site  
 Prof. Dr. Felix Tacke  
 Philipps-Universität Marburg  
-Institut für Romanische Philologie  
+Institute for Romance Philology  
 Wilhelm-Röpke-Str. 6D  
-35032 Marburg  
-Tel.: +49 6421 28-24776  
-E-Mail: felix.tacke@uni-marburg.de
+35032 Marburg, Germany  
+Phone: +49 6421 28-24776  
+Email: felix.tacke@uni-marburg.de
 
 ---
 
-# Haftungsausschluss und rechtliche Hinweise
+# Disclaimer and Legal Information
 
-#### Haftung für Inhalte  
-Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird jedoch keine Gewähr übernommen.
+#### Liability for Content  
+The content of this website is created with the utmost care. However, no guarantee can be given for the accuracy, completeness, or timeliness of the content.
 
-#### Haftung für Links  
-Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+#### Liability for Links  
+Despite careful content review, we assume no liability for the content of external links. The operators of linked pages are solely responsible for their content.
 
-#### Urheberrecht  
-Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.  
-Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+#### Copyright  
+The content and works created by the site operators on these pages are subject to German copyright law.  
+Reproduction, editing, distribution, and any kind of use beyond the limits of copyright law require the written consent of the respective author or creator.
 
 ---
 
-# Datenschutz
+# Privacy Policy
 
-#### 1. Verantwortlicher  
+#### 1. Controller  
 Philipps-Universität Marburg  
-Der Präsident  
+The President  
 Prof. Dr. Thomas Nauss  
 Biegenstraße 10  
-35037 Marburg  
-Tel.: +49 6421 28-20  
+35037 Marburg, Germany  
+Phone: +49 6421 28-20  
 Fax: +49 6421 28-22500  
-Internet: https://www.uni-marburg.de  
-E-Mail: info@uni-marburg.de
+Website: https://www.uni-marburg.de  
+Email: info@uni-marburg.de
 
-#### 2. Behördlicher Datenschutzbeauftragter  
+#### 2. Data Protection Officer  
 Philipps-Universität Marburg  
-Behördlicher Datenschutzbeauftragter  
+Data Protection Officer  
 Dr. Rainer Viergutz  
 Biegenstraße 10  
-35037 Marburg  
-Tel.: +49 6421 28-23525  
-E-Mail: datenschutz@uni-marburg.de
+35037 Marburg, Germany  
+Phone: +49 6421 28-23525  
+Email: datenschutz@uni-marburg.de
 
-#### 3. Zweck der Datenverarbeitung  
-Die Projektseite dient ausschließlich der Information über das DH-Projekt. Es werden keine personenbezogenen Daten für Marketing-, Analyse- oder Tracking-Zwecke verarbeitet.
+#### 3. Purpose of Data Processing  
+This project site serves exclusively to provide information about the DH project. No personal data is processed for marketing, analytics, or tracking purposes.
 
-#### 4. Speicherung und Löschung von Daten  
-Es werden keinerlei personenbezogenen Daten (z. B. Name, E-Mail, IP-Adresse) in Datenbanken, Log-Dateien oder ähnlichen Systemen gespeichert. Es werden keine individualisierten Nutzungsprofile erstellt.
+#### 4. Storage and Deletion of Data  
+No personal data (e.g., name, email, IP address) is stored in databases, log files, or similar systems. No individualized user profiles are created.
 
 #### 5. Cookies  
-Diese Seite setzt **keine eigenen** Cookies ein. Soweit im Rahmen der GitHub Pages-Infrastruktur oder des Uni-Reverse-Proxys technische Cookies verwendet werden, dienen diese ausschließlich dem reinen Betrieb und werden nicht ausgewertet.
+This site does **not use its own** cookies. To the extent that technical cookies are used within the GitHub Pages infrastructure or the university reverse proxy, these serve exclusively for operation and are not evaluated.
 
-#### 6. Rechte der betroffenen Personen  
-Sie haben folgende Rechte nach DSGVO:  
-- Auskunft über die gespeicherten Daten  
-- Berichtigung unrichtiger Daten  
-- Löschung bzw. Einschränkung der Verarbeitung  
-- Widerspruch gegen die Verarbeitung  
-- Datenübertragbarkeit  
-- Beschwerde bei einer Aufsichtsbehörde  
+#### 6. Rights of Data Subjects  
+You have the following rights under the GDPR:  
+- Information about stored data  
+- Correction of inaccurate data  
+- Deletion or restriction of processing  
+- Objection to processing  
+- Data portability  
+- Complaint to a supervisory authority  
 
-#### 7. Kontakt zur Datenschutzaufsicht  
-Der Hessische Beauftragte für Datenschutz und Informationsfreiheit  
-Postfach 31 63  
-65021 Wiesbaden  
-Tel.: +49 611 1408-0  
-E-Mail: poststelle@datenschutz.hessen.de  
+#### 7. Contact for Data Protection Supervision  
+The Hessian Commissioner for Data Protection and Freedom of Information  
+P.O. Box 31 63  
+65021 Wiesbaden, Germany  
+Phone: +49 611 1408-0  
