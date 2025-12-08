@@ -168,7 +168,14 @@
   flex-direction: column;
   overflow: hidden;
   height: 100%;
-  min-height: 260px; /* ensure consistent baseline for all cards */
+  min-height: 0; /* mobile: height by content */
+}
+
+/* On larger screens, set min-height for consistent card heights */
+@media (min-width: 768px) {
+  .md-typeset .hisp-card {
+    min-height: 260px;
+  }
 }
 
 /* Lighter card variant for nested/secondary cards */
