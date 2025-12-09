@@ -1,5 +1,5 @@
 ---
-title: Hispanistica @ Marburg
+title: Project Overview
 ---
 
 <div class="hisp-hero hisp-hero--index">
@@ -11,7 +11,7 @@ title: Hispanistica @ Marburg
         <strong><a href="https://www.uni-marburg.de/de/fb10/romanistik/institut/ordner_lehrende/felix-tacke" target="_blank" rel="noopener noreferrer">Prof. Dr. Felix Tacke</a></strong>.
       </p>
       <p class="hisp-hero__logo">
-        <a href="https://corapan.online.uni-marburg.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/hispanistica_logo.png" alt="Hispanistica Logo"></a>
+        <a href="https://hispanistica.online.uni-marburg.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/hispanistica_logo.png" alt="Hispanistica Logo"></a>
       </p>
     </div>
   </div>
