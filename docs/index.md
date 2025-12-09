@@ -10,6 +10,9 @@ title: Hispanistica @ Marburg
         <strong>Hispanistica</strong> documents Digital Humanities projects in Hispanic linguistics at Philipps University of Marburg, highlighting their technical foundations, versioned development workflows, and adherence to FAIR principles. It provides an overview of research infrastructures, corpora, and digital teaching tools developed under the direction of 
         <strong><a href="https://www.uni-marburg.de/de/fb10/romanistik/institut/ordner_lehrende/felix-tacke" target="_blank" rel="noopener noreferrer">Prof. Dr. Felix Tacke</a></strong>.
       </p>
+      <p class="hisp-hero__logo">
+        <a href="https://corapan.online.uni-marburg.de/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/hispanistica_logo.png" alt="Hispanistica Logo"></a>
+      </p>
     </div>
   </div>
 </div>
