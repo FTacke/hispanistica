@@ -1,0 +1,94 @@
+---
+/**
+ * School/Toolkit Project Page
+ */
+
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Button from '../../components/Button.astro';
+import { projectLinks } from '../../config/links';
+---
+
+<Base title="Summer School - Hispanistica" description="International Summer School on Digital Humanities in Hispanic Linguistics">
+  <Nav />
+  
+  <main>
+    <div class="container container--narrow content">
+      <!-- Project Header with Logo -->
+      <div class="project-header">
+        <img 
+          src="/toolkit-logo.png" 
+          alt="Spanish Linguistics @ School Logo" 
+          class="project-logo"
+        />
+      </div>
+      
+      <h1>Spanish Linguistics @ School</h1>
+
+      <p class="hero__subtitle" style="font-size: var(--md-sys-typescale-title-medium-font-size); margin-bottom: var(--space-6);">
+        An open digital reference work designed for teachers, student teachers, and linguistics-oriented practitioners in Spanish language education. Built with MkDocs and the Material for MkDocs theme, this digital toolkit integrates linguistic theory, multilingual corpora, audio materials, and didactic guidance within a unified, modular, and easily extensible static-site framework.
+      </p>
+
+      <div class="button-group">
+        <Button href={projectLinks.school.webapp} target="_blank" rel="noopener noreferrer">
+          Open Digital Reference →
+        </Button>
+        <Button href={projectLinks.school.github} variant="outlined" target="_blank" rel="noopener noreferrer">
+          View on GitHub
+        </Button>
+      </div>
+
+      <h2>Introduction</h2>
+
+      <p><em>Spanish Linguistics @ School</em> is built with MkDocs and the Material for MkDocs theme, providing a lightweight, modular, and extensible framework for creating digital textbooks. The platform uses features such as hierarchical page navigation, integrated search, and persistent navigation elements to emulate the structure and usability of a printed book while fully embracing the affordances of the web.</p>
+
+      <p>The site is optimized for contemporary reading habits through responsive layouts, mobile-first design, and automatic light/dark-mode rendering. These properties make the reference work accessible across devices and ensure a smooth reading experience in classroom, study, and on-the-go contexts.</p>
+
+      <p>To support linguistics-specific use cases, the toolkit extends the standard MkDocs environment with custom integrations, including embedded Leaflet maps, audio players for speech examples, and specialized components for linguistic markup. This technical foundation enables scalable, maintainable, and long-term sustainable development of digital teaching materials.</p>
+
+      <h2>Components & Features</h2>
+
+      <h3>1. Open Educational Resource (OER)</h3>
+      <p>The project is conceived as a fully open educational resource, aiming to make linguistically informed teaching materials freely accessible and adaptable for a wide range of educational contexts. As an OER, the digital reference book invites reuse, revision, and expansion: all textual content is published under the CC BY-SA 4.0 license, enabling teachers, students, and institutions to incorporate its materials into courses, modify them for specific pedagogical needs, and redistribute improved or localized versions.</p>
+
+      <p>Beyond providing openly licensed chapters, the project establishes a transparent editorial framework that supports collaborative authorship and ensures consistency across contributions. Its design connects linguistic insights directly to classroom practice, promoting linguistic awareness and evidence-based pedagogy while encouraging the shared development of high-quality teaching materials.</p>
+
+      <h3>2. Open Source Codebase</h3>
+      <p>The digital reference book is implemented as a static website using <em>MkDocs</em> and the <em>Material for MkDocs</em> theme, forming a lightweight yet robust foundation for modular digital textbooks. Beyond the standard feature set, the platform is extended through <em>custom HTML, JavaScript, and CSS</em>, enabling components that go well beyond the template's default capabilities — including the embedding of <em>Leaflet-based interactive maps</em>, audio materials for pronunciation and variation examples, and specialized layouts for linguistic annotation and didactic infoboxes.</p>
+
+      <p>The openly available codebase allows:</p>
+      <ul>
+        <li>Reuse and adaptation for related educational or linguistic projects</li>
+        <li>Transparent versioning and collaborative workflows</li>
+        <li>Straightforward deployment via GitHub Pages or similar static hosts</li>
+        <li>A modular architecture that supports both plugin-based and custom front-end extensions</li>
+      </ul>
+
+      <p>Developers can fork the repository, adapt the <code>docs/</code> directory, enhance it with their own custom components, and publish their tailored versions with minimal overhead.</p>
+
+      <p>
+        <a href="https://github.com/FTacke/spanisch-toolkit" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+      </p>
+
+      <h3>3. Citability & Long-Term Archiving</h3>
+      <p>To ensure consistent citation and long-term referenceability, the project uses a Concept DOI on Zenodo that always points to the most recent release. Each individual update additionally receives its own Version DOI, allowing specific states of the project to be cited precisely.</p>
+
+      <p>Through the GitHub–Zenodo integration, every tagged release in the GitHub repository triggers an automatic archive update on Zenodo. This workflow guarantees versioned preservation, persistent identifiers for all releases, and seamless traceability of the project's development over time.</p>
+
+      <p>This archival strategy follows established FAIR principles:</p>
+      <ul>
+        <li><strong>Findable:</strong> DOI-based citation and indexed releases</li>
+        <li><strong>Accessible:</strong> Open licensing and permanent online availability</li>
+        <li><strong>Interoperable:</strong> Structured Markdown sources and standard web technologies</li>
+        <li><strong>Reusable:</strong> Modular chapter design and clearly documented editorial practices</li>
+      </ul>
+
+      <p>
+        <a href="https://doi.org/10.5281/zenodo.15348687" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.15348687</a>
+      </p>
+    </div>
+  </main>
+  
+  <Footer />
+</Base>

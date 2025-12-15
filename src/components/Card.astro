@@ -1,0 +1,29 @@
+---
+/**
+ * Card Component
+ * 
+ * Reusable card for displaying project summaries and links.
+ */
+
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  linkText?: string;
+}
+
+const { 
+  title, 
+  description, 
+  href, 
+  linkText = "Learn more →" 
+} = Astro.props;
+---
+
+<div class="card">
+  <h3 class="card__title">{title}</h3>
+  <p class="card__content">{description}</p>
+  <div class="card__actions">
+    <a href={href} class="card__link">{linkText}</a>
+  </div>
+</div>

@@ -1,0 +1,43 @@
+---
+/**
+ * Approach Page
+ */
+
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { projectLinks } from '../config/links';
+---
+
+<Base title="Approach - Hispanistica" description="Our approach to Digital Humanities in Hispanic Linguistics">
+  <Nav />
+  
+  <main>
+    <div class="container container--narrow content">
+      <h1>Approach</h1>
+
+      <p>In my Digital Humanities projects, I draw on recent developments in Large Language Models, generative AI, and modern web technologies to make research data and teaching materials transparent, versioned, and sustainable over time. Lightweight and reproducible technical infrastructures now make it possible to develop specialised tools for Hispanic linguistics without relying on extensive institutional IT resources.</p>
+
+      <p>I work openly, transparently, and in accordance with FAIR principles: data, workflows, and technical decisions should be understandable and reusable. For this reason, the complete source code of my projects — including build configurations, release workflows, and documentation — is freely accessible on <strong><a href={projectLinks.general.githubProfile} target="_blank" rel="noopener noreferrer">GitHub</a></strong>.</p>
+
+      <h2>Core Principles</h2>
+
+      <h3>FAIR Data Principles</h3>
+      <p>All projects follow the FAIR principles to ensure that research outputs are:</p>
+      <ul>
+        <li><strong>Findable:</strong> Persistent identifiers (DOIs) and indexed metadata</li>
+        <li><strong>Accessible:</strong> Open access where possible, with clear licensing</li>
+        <li><strong>Interoperable:</strong> Standard formats and documented interfaces</li>
+        <li><strong>Reusable:</strong> Comprehensive documentation and versioning</li>
+      </ul>
+
+      <h3>Open Source & Transparency</h3>
+      <p>Complete transparency in technical implementation enables reproducibility and collaborative development. All code, configurations, and workflows are publicly available, allowing researchers to verify methods, adapt tools for their own needs, and contribute improvements.</p>
+
+      <h3>Sustainable Infrastructure</h3>
+      <p>By leveraging modern web technologies and containerization, projects maintain long-term viability without dependency on specific institutional resources. Static site generation, standardized data formats, and documented pipelines ensure that research remains accessible and functional over time.</p>
+    </div>
+  </main>
+  
+  <Footer />
+</Base>

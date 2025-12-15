@@ -1,0 +1,78 @@
+---
+/**
+ * MAR.ELE Project Page
+ */
+
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Button from '../../components/Button.astro';
+import { projectLinks } from '../../config/links';
+---
+
+<Base title="MAR.ELE - Hispanistica" description="Marcadores del Lenguaje Espontáneo - Pronunciation corpus for learner Spanish">
+  <Nav />
+  
+  <main>
+    <div class="container container--narrow content">
+      <!-- Project Header with Logo -->
+      <div class="project-header">
+        <img 
+          src="/marele-logo.png" 
+          alt="MAR.ELE Logo" 
+          class="project-logo"
+        />
+      </div>
+      
+      <h1>MAR.ELE — Pronunciation Corpus</h1>
+
+      <p class="hero__subtitle" style="font-size: var(--md-sys-typescale-title-medium-font-size); margin-bottom: var(--space-6);">
+        A corpus of learner pronunciation in Spanish, designed to support empirical research, teaching, and the study of spoken interlanguage varieties. MAR.ELE combines high-quality audio, carefully aligned transcriptions, and rich metadata within a unified analytical environment.
+      </p>
+
+      <div class="button-group">
+        <Button href={projectLinks.marele.webapp} target="_blank" rel="noopener noreferrer">
+          Open Web App →
+        </Button>
+        <Button href={projectLinks.marele.github} variant="outlined" target="_blank" rel="noopener noreferrer">
+          View on GitHub
+        </Button>
+      </div>
+
+      <h2>Introduction</h2>
+
+      <p>MAR.ELE is a research-oriented pronunciation corpus documenting the spoken production of learners of Spanish across different linguistic backgrounds and proficiency levels. It was created to offer a reliable empirical foundation for work in second-language phonetics, pronunciation instruction, corpus phonology, and the analysis of learner varieties.</p>
+
+      <p>The recordings capture controlled reading and task-based speech. All materials have been processed through a consistent transcription and annotation workflow, allowing users to explore the data both qualitatively and quantitatively. Particular emphasis is placed on transparent documentation, reproducible methods, and accessibility for linguistic researchers, teachers, and students.</p>
+
+      <p>The corpus is available through a dedicated web interface that integrates audio–text synchronization, metadata browsing, and comparative phonetic analysis tools.</p>
+
+      <h2>Components & Features</h2>
+
+      <h3>1. Web Application</h3>
+      <p>The MAR.ELE web application serves as the central access point to the corpus. It allows users to listen to complete recordings while following the aligned transcription, examine speaker profiles, and compare specific words or segments across recordings. The interface is designed to support both detailed linguistic analysis and practical use in language teaching.</p>
+
+      <p>From a technical perspective, the application is implemented as a containerized Python/Flask service with automated deployment. Its design follows principles of modularity, reproducibility, and long-term maintainability.</p>
+
+      <p>
+        <a href={projectLinks.marele.github} target="_blank" rel="noopener noreferrer">View on GitHub →</a> |
+        <a href="https://doi.org/10.5281/zenodo.15373525" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.15373525</a>
+      </p>
+
+      <h3>2. Full Corpus (Restricted Access)</h3>
+      <p>The full MAR.ELE corpus includes the complete set of audio recordings, transcriptions, and metadata produced during the project. Because these materials consist of pseudonymized personal speech data, access is subject to ethical and data protection regulations. For this reason, the corpus is made available under restricted access and can be obtained upon written request for academic research purposes.</p>
+
+      <p>The dataset provides the level of detail required for fine-grained phonetic and phonological analysis, including segment-level alignment and rich speaker information.</p>
+
+      <p>
+        <a href="https://doi.org/10.5281/zenodo.15373537" target="_blank" rel="noopener noreferrer">DOI: 10.5281/zenodo.15373537</a>
+      </p>
+
+      <h2>Corpus Design</h2>
+
+      <p>The MAR.ELE corpus was developed with the goal of providing a stable and methodologically consistent reference resource for pronunciation studies. Recordings were collected in controlled settings to ensure comparability across speakers and tasks. The transcription protocol follows transparent conventions, which are applied throughout all materials to facilitate systematic analysis.</p>
+    </div>
+  </main>
+  
+  <Footer />
+</Base>

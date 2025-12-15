@@ -1,0 +1,25 @@
+{
+  "name": "hispanistica",
+  "version": "1.0.0",
+  "description": "Digital Humanities in Hispanic Linguistics - Static site built with Astro",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "vendor:md3": "node scripts/vendor-md3.mjs"
+  },
+  "keywords": [
+    "digital-humanities",
+    "linguistics",
+    "hispanic-studies"
+  ],
+  "author": "Felix Tacke",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^4.0.0"
+  },
+  "devDependencies": {
+    "@astrojs/markdown-remark": "^4.0.0"
+  }
+}

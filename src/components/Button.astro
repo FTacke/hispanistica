@@ -1,0 +1,70 @@
+---
+/**
+ * Button Component
+ * 
+ * MD3-styled button for CTAs and links.
+ * Supports filled and outlined variants.
+ */
+
+interface Props {
+  href: string;
+  variant?: 'filled' | 'outlined';
+  target?: string;
+  rel?: string;
+}
+
+const { 
+  href, 
+  variant = 'filled',
+  target,
+  rel
+} = Astro.props;
+---
+
+<a 
+  href={href} 
+  class:list={["button", `button--${variant}`]}
+  target={target}
+  rel={rel}
+>
+  <slot />
+</a>
+
+<style>
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-6);
+    font-family: var(--md-sys-typescale-base-font-family);
+    font-size: var(--md-sys-typescale-label-large-font-size);
+    font-weight: var(--md-sys-typescale-base-font-weight-medium);
+    line-height: var(--md-sys-typescale-label-large-line-height);
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition: all var(--md-motion-duration-short4) var(--md-motion-easing-standard);
+    cursor: pointer;
+  }
+  
+  .button--filled {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    border: none;
+  }
+  
+  .button--filled:hover {
+    background-color: color-mix(in srgb, var(--md-sys-color-primary) 90%, black);
+    box-shadow: var(--elev-2);
+  }
+  
+  .button--outlined {
+    background-color: transparent;
+    color: var(--md-sys-color-primary);
+    border: 1px solid var(--md-sys-color-outline);
+  }
+  
+  .button--outlined:hover {
+    background-color: color-mix(in srgb, var(--md-sys-color-primary) 8%, transparent);
+    border-color: var(--md-sys-color-primary);
+  }
+</style>

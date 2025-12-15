@@ -1,59 +1,47 @@
-# Hispanistica @ Marburg
+﻿# hispanistica
 
-An overview of Digital Humanities projects in Hispanic linguistics at Philipps University of Marburg, under the direction of Prof. Dr. Felix Tacke.
+Personal academic website showcasing linguistic research projects and resources for Spanish language learning.
 
-## Projects
+## About
 
-- **CO.RA.PAN**: Corpus Radiofónico Panhispánico – Audio and transcription corpus for the study of pluricentric Spanish. [Live](https://corapan.online.uni-marburg.de/)
-- **MAR.ELE**: Learner pronunciation corpus for Spanish as a foreign language. [Live](https://marele.online.uni-marburg.de/)
-- **Spanish Linguistics @ School**: Digital reference book for Spanish language teachers. [Live](https://linguistik.online.uni-marburg.de/)
+This site serves as a central hub for various projects in Hispanic linguistics, including:
 
----
+- **Co.R.A.Pan**  Corpus Románico de Panteón
+- **Ma.R.Ele**  Material Raum Eléctrico  
+- **Spanisch Toolkit**  Interactive learning tools for Spanish
 
-## Technical Setup
+## Tech Stack
 
-This site is built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+Built with [Astro](https://astro.build) and deployed via GitHub Pages to [hispanistica.com](https://hispanistica.com).
 
-### Project Structure
+## Development
 
-```
-hispanistica-mkdocs/
-├── docs/
-│   ├── assets/images/       # Images and screenshots
-│   ├── styles/
-│   │   ├── md3-tokens.css   # MD3 Design tokens (colors, spacing, etc.)
-│   │   └── override.css     # Material for MkDocs overrides & components
-│   ├── index.md             # Homepage
-│   ├── corapan.md           # CO.RA.PAN project page
-│   ├── marele.md            # MAR.ELE project page
-│   ├── toolkit.md           # Spanish Linguistics @ School page
-│   └── impressum.md         # Legal notice
-├── mkdocs.yml               # MkDocs configuration
-├── requirements.txt         # Python dependencies
-└── .github/workflows/       # GitHub Actions for deployment
-```
-
-### Local Development
-
-```bash
+`ash
 # Install dependencies
-pip install -r requirements.txt
+npm install
 
-# Run local development server
-mkdocs serve
+# Start dev server
+npm run dev
 
-# Build site
-mkdocs build
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-### Dependencies
+## Deployment
 
-- `mkdocs` – Static site generator
-- `mkdocs-material` – Material Design theme
-- `mkdocs-glightbox` – Image lightbox plugin
+The site is automatically deployed to GitHub Pages via GitHub Actions on every push to main.
 
----
+Custom domain: **hispanistica.com**
+
+## Project Links
+
+- Co.R.A.Pan: [corapan.hispanistica.com](https://corapan.hispanistica.com)
+- Ma.R.Ele: [marele.hispanistica.com](https://marele.hispanistica.com)
+- Spanisch Toolkit: [school.hispanistica.com](https://school.hispanistica.com)
 
 ## License
 
-Content is provided for informational purposes. Source code is available under MIT License.
+ 2024 Franz Tacke

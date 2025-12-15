@@ -1,0 +1,156 @@
+/**
+ * Hispanistica Token Layer
+ * 
+ * Imports vendored MD3 tokens from CORAPAN and overrides/extends them
+ * for the Hispanistica brand identity.
+ * 
+ * Design principles:
+ * - Primary color: #1f2937 (fixed, consistent throughout)
+ * - Restrained, academic color palette
+ * - Low contrast, neutral backgrounds
+ * - Elegant spacing and typography
+ */
+
+/* Import vendored MD3 base tokens */
+@import "./vendor/tokens.css";
+
+:root {
+  /* --- HISPANISTICA BRAND COLORS --- */
+  
+  /* Primary: Fixed brand color */
+  --md-sys-color-primary: #1f2937;
+  --md-sys-color-on-primary: #ffffff;
+  
+  /* Primary container: Subtle tint for hover/active states */
+  --md-sys-color-primary-container: #e5e7eb;
+  --md-sys-color-on-primary-container: #1f2937;
+  
+  /* Secondary: Derived from primary, slightly lighter */
+  --md-sys-color-secondary: #374151;
+  --md-sys-color-on-secondary: #ffffff;
+  --md-sys-color-secondary-container: #f3f4f6;
+  --md-sys-color-on-secondary-container: #374151;
+  
+  /* Surfaces: Neutral, academic palette */
+  --md-sys-color-surface: #ffffff;
+  --md-sys-color-on-surface: #1f2937;
+  --md-sys-color-surface-variant: #f9fafb;
+  --md-sys-color-on-surface-variant: #4b5563;
+  
+  /* Background: Very subtle off-white */
+  --md-sys-color-background: #fafafa;
+  --md-sys-color-on-background: #1f2937;
+  
+  /* Outlines and dividers: Subtle grays */
+  --md-sys-color-outline: #d1d5db;
+  --md-sys-color-outline-variant: #e5e7eb;
+  
+  /* Surface containers: Minimal tonal variation */
+  --md-sys-color-surface-container-lowest: #ffffff;
+  --md-sys-color-surface-container-low: #fafafa;
+  --md-sys-color-surface-container: #f9fafb;
+  --md-sys-color-surface-container-high: #f3f4f6;
+  --md-sys-color-surface-container-highest: #e5e7eb;
+  
+  /* --- TYPOGRAPHY ADJUSTMENTS --- */
+  
+  /* Slightly smaller, more elegant scale for academic context */
+  --md-sys-typescale-display-large-font-size: 48px;
+  --md-sys-typescale-display-large-line-height: 56px;
+  
+  --md-sys-typescale-display-medium-font-size: 36px;
+  --md-sys-typescale-display-medium-line-height: 44px;
+  
+  --md-sys-typescale-headline-large-font-size: 28px;
+  --md-sys-typescale-headline-large-line-height: 36px;
+  
+  --md-sys-typescale-headline-medium-font-size: 24px;
+  --md-sys-typescale-headline-medium-line-height: 32px;
+  
+  /* --- SHAPE --- */
+  
+  /* Subtle corner radius for modern, clean look */
+  --md-sys-shape-corner-small: 4px;
+  --md-sys-shape-corner-medium: 8px;
+  --md-sys-shape-corner-large: 12px;
+  
+  /* Maintain compatibility with radius tokens from vendor */
+  --radius-sm: var(--md-sys-shape-corner-small);
+  --radius-md: var(--md-sys-shape-corner-medium);
+  --radius-lg: var(--md-sys-shape-corner-large);
+}
+
+/* --- DARK MODE --- */
+
+html[data-theme="dark"] {
+  /* Primary: Keep brand color but adjust for dark context */
+  --md-sys-color-primary: #60a5fa;
+  --md-sys-color-on-primary: #1e3a8a;
+  
+  /* Primary container */
+  --md-sys-color-primary-container: #1e3a8a;
+  --md-sys-color-on-primary-container: #bfdbfe;
+  
+  /* Secondary */
+  --md-sys-color-secondary: #94a3b8;
+  --md-sys-color-on-secondary: #0f172a;
+  --md-sys-color-secondary-container: #334155;
+  --md-sys-color-on-secondary-container: #cbd5e1;
+  
+  /* Surfaces: Dark grays */
+  --md-sys-color-surface: #1e293b;
+  --md-sys-color-on-surface: #f1f5f9;
+  --md-sys-color-surface-variant: #334155;
+  --md-sys-color-on-surface-variant: #cbd5e1;
+  
+  /* Background */
+  --md-sys-color-background: #0f172a;
+  --md-sys-color-on-background: #f1f5f9;
+  
+  /* Outlines */
+  --md-sys-color-outline: #475569;
+  --md-sys-color-outline-variant: #334155;
+  
+  /* Surface containers */
+  --md-sys-color-surface-container-lowest: #0f172a;
+  --md-sys-color-surface-container-low: #1e293b;
+  --md-sys-color-surface-container: #334155;
+  --md-sys-color-surface-container-high: #475569;
+  --md-sys-color-surface-container-highest: #64748b;
+}
+
+/* Dark mode: Disabled for system preference override */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    /* Inherit dark theme tokens when system prefers dark and no explicit light theme */
+    --md-sys-color-primary: #60a5fa;
+    --md-sys-color-on-primary: #1e3a8a;
+    --md-sys-color-primary-container: #1e3a8a;
+    --md-sys-color-on-primary-container: #bfdbfe;
+    --md-sys-color-secondary: #94a3b8;
+    --md-sys-color-on-secondary: #0f172a;
+    --md-sys-color-secondary-container: #334155;
+    --md-sys-color-on-secondary-container: #cbd5e1;
+    --md-sys-color-surface: #1e293b;
+    --md-sys-color-on-surface: #f1f5f9;
+    --md-sys-color-surface-variant: #334155;
+    --md-sys-color-on-surface-variant: #cbd5e1;
+    --md-sys-color-background: #0f172a;
+    --md-sys-color-on-background: #f1f5f9;
+    --md-sys-color-outline: #475569;
+    --md-sys-color-outline-variant: #334155;
+    --md-sys-color-surface-container-lowest: #0f172a;
+    --md-sys-color-surface-container-low: #1e293b;
+    --md-sys-color-surface-container: #334155;
+    --md-sys-color-surface-container-high: #475569;
+    --md-sys-color-surface-container-highest: #64748b;
+  }
+}
+
+/* Dark mode: Override system preference for explicit settings */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Override any dark mode settings to maintain light theme */
+    color-scheme: light dark;
+  }
+}
