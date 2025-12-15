@@ -1,18 +1,18 @@
-﻿# hispanistica
+﻿# Hispanistica @ Marburg
 
-Personal academic website showcasing linguistic research projects and resources for Spanish language learning.
+An overview of Digital Humanities projects in Hispanic linguistics at Philipps-Universität Marburg, under the direction of Prof. Dr. Felix Tacke.
 
-## About
+## Projects
 
-This site serves as a central hub for various projects in Hispanic linguistics, including:
+- **CO.RA.PAN**: Corpus Radiofónico Panhispánico – Audio and transcription corpus for the study of pluricentric Spanish. [Live](https://corapan.hispanistica.com) | [GitHub](https://github.com/FTacke/corapan-webapp)
+- **MAR.ELE**: Learner pronunciation corpus for Spanish as a foreign language. [Live](https://marele.hispanistica.com) | [GitHub](https://github.com/FTacke/marele-webapp)
+- **Spanish Linguistics @ School**: Digital reference book for Spanish language teachers. [Live](https://school.hispanistica.com) | [GitHub](https://github.com/FTacke/spanisch-toolkit)
 
-- **Co.R.A.Pan**  Corpus Románico de Panteón
-- **Ma.R.Ele**  Material Raum Eléctrico  
-- **Spanisch Toolkit**  Interactive learning tools for Spanish
+---
 
-## Tech Stack
+## Technical Setup
 
-Built with [Astro](https://astro.build) and deployed via GitHub Pages to [hispanistica.com](https://hispanistica.com).
+This site is built with [Astro](https://astro.build) and deployed via GitHub Pages to [hispanistica.com](https://hispanistica.com).
 
 ## Development
 
@@ -34,14 +34,12 @@ npm run preview
 
 The site is automatically deployed to GitHub Pages via GitHub Actions on every push to main.
 
-Custom domain: **hispanistica.com**
+**Custom domain:** [hispanistica.com](https://hispanistica.com)
 
-## Project Links
+The workflow builds the Astro site and pushes the `dist/` folder to the `gh-pages` branch, which is configured in GitHub Pages settings.
 
-- Co.R.A.Pan: [corapan.hispanistica.com](https://corapan.hispanistica.com)
-- Ma.R.Ele: [marele.hispanistica.com](https://marele.hispanistica.com)
-- Spanisch Toolkit: [school.hispanistica.com](https://school.hispanistica.com)
+---
 
 ## License
 
- 2024 Franz Tacke
+Content is provided for informational purposes. Source code is available under MIT License.
