@@ -1,0 +1,758 @@
+/* =============================================================================
+   Material for MkDocs – Light Neutral Override Stylesheet
+   =============================================================================
+   Maps Material for MkDocs CSS variables to MD3 light neutral tokens.
+   Permanent light theme – no light/dark toggle.
+   Soft gray backgrounds, no pure white.
+   Cards with subtle elevation, no hover effects.
+   Preserves all Material functionality (navigation, search, mobile view).
+   
+   This file should be loaded AFTER md3-tokens.css.
+   ============================================================================= */
+
+/* =============================================================================
+   1. MATERIAL THEME VARIABLE MAPPING – LIGHT NEUTRAL
+   ============================================================================= */
+
+:root {
+  /* Primary colors – dark text on light surface */
+  --md-primary-fg-color: var(--md-sys-color-primary);
+  --md-primary-bg-color: var(--md-sys-color-on-primary);
+
+  /* Accent colors */
+  --md-accent-fg-color: var(--md-sys-color-secondary);
+
+  /* Default background and foreground */
+  --md-default-bg-color: var(--md-sys-color-background);
+  --md-default-fg-color: var(--md-sys-color-on-background);
+  --md-default-fg-color--light: var(--md-sys-color-on-surface-variant);
+  --md-default-fg-color--lighter: var(--md-sys-color-outline);
+  --md-default-fg-color--lightest: var(--md-sys-color-outline-variant);
+
+  /* Code background – slightly contrasting */
+  --md-code-bg-color: var(--md-sys-color-surface-variant);
+  --md-code-fg-color: var(--md-sys-color-on-surface);
+  --md-code-hl-color: rgba(51, 65, 85, 0.08);
+
+  /* Link colors */
+  --md-typeset-a-color: var(--md-sys-color-primary);
+
+  /* Footer */
+  --md-footer-bg-color: var(--md-sys-color-surface);
+  --md-footer-bg-color--dark: #e5e7eb;
+  --md-footer-fg-color: var(--md-sys-color-on-surface);
+  --md-footer-fg-color--light: var(--md-sys-color-on-surface-variant);
+  --md-footer-fg-color--lighter: var(--md-sys-color-outline);
+
+  /* Radii / Shadows – subtle for light theme */
+  --md-radius-small: 8px;
+  --md-radius-medium: 14px;
+
+  --md-elevation-z1: var(--elev-1);
+  --md-elevation-z2: var(--elev-2);
+
+  /* Typography */
+  --md-text-font: var(--app-font-family-sans);
+  --md-code-font: var(--app-font-family-mono);
+}
+
+/* Global background color for all pages */
+body,
+html,
+.md-container,
+.md-main,
+.md-main__inner {
+  background-color: #d1d5db !important;
+}
+
+/* =============================================================================
+   2. HIDE RIGHT TOC SIDEBAR GLOBALLY
+   ============================================================================= */
+
+.md-sidebar--secondary {
+  display: none !important;
+  width: 0 !important;
+  visibility: hidden !important;
+}
+
+/* =============================================================================
+   3. TYPOGRAPHY – COMPACT, NAVIGATION-SIZED
+   ============================================================================= */
+
+.md-typeset {
+  font-size: 0.7rem;
+  line-height: 1.55;
+}
+
+/* Headings: compact, clear */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  color: var(--md-sys-color-on-surface);
+}
+
+.md-typeset h1 { font-size: 1.25rem; }
+.md-typeset h2 { font-size: 1.05rem; }
+.md-typeset h3 { font-size: 0.9rem; }
+
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* =============================================================================
+   4. BUTTON STYLES – SUBDUED
+   ============================================================================= */
+
+.md-typeset .md-button {
+  border-radius: 9999px;
+  text-transform: none;
+  font-weight: 500;
+  min-height: 38px;
+  padding: 0.3rem 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+}
+
+/* Ensure icons inside buttons align properly */
+.md-typeset .md-button i,
+.md-typeset .md-button .fa-solid,
+.md-typeset .md-button .fa-regular {
+  font-size: 0.85em;
+  line-height: 1;
+}
+
+/* Primary button: light capsule on dark ground */
+.md-typeset .md-button--primary {
+  background-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-primary);
+  border: none;
+}
+
+/* Secondary button: transparent with border */
+.md-typeset .md-button--secondary {
+  background-color: transparent;
+  color: var(--md-sys-color-primary);
+  border-radius: 9999px;
+  border: 1px solid var(--md-sys-color-outline);
+}
+
+/* =============================================================================
+   5. CARD STYLES – MODERN, SUBTLE ELEVATION
+   ============================================================================= */
+
+/* Card grid container */
+.hisp-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .hisp-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+  }
+}
+
+/* Three-column grid variant */
+.hisp-card-grid--3col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .hisp-card-grid--3col {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
+  }
+}
+
+/* Card component - modern, clean design matching landing page */
+.md-typeset .hisp-card {
+  display: block;
+  padding: 2rem 1.5rem;
+  background: var(--md-sys-color-surface, #e5e7eb);
+  border-radius: var(--md-radius-medium, 14px);
+  box-shadow: var(--elev-1, 0 1px 3px rgba(0, 0, 0, 0.08));
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  min-height: 0;
+}
+
+.md-typeset .hisp-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--elev-2, 0 4px 8px rgba(0, 0, 0, 0.12));
+  text-decoration: none;
+}
+
+/* Card images/logos */
+.md-typeset .hisp-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: var(--md-radius-small, 8px);
+}
+
+/* Card headings */
+.md-typeset .hisp-card h3,
+.md-typeset .hisp-card h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  color: var(--md-sys-color-primary, #334155);
+}
+
+/* Card text */
+.md-typeset .hisp-card p {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--md-sys-color-on-surface-variant, #64748b);
+}
+
+/* Lighter card variant */
+.md-typeset .hisp-card--light {
+  background: var(--md-sys-color-surface, #e5e7eb);
+}
+
+/* Card actions area (legacy support) */
+.hisp-card__actions {
+  padding: 1rem 1.5rem;
+  margin-top: auto;
+}
+
+/* =============================================================================
+   6. HERO CARD / LANDING BANNER (Legacy Support)
+   ============================================================================= */
+.hisp-hero {
+  /* Unified hero — neutral, NOT a card: no background color, consistent spacing */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  align-items: center;
+  background: transparent; /* no background on any hero */
+  padding: var(--space-10) var(--space-4); /* consistent vertical breathing room */
+  border-radius: 0; /* avoid card look */
+  border: none;
+  box-shadow: none; /* avoid card-like elevation */
+  margin-bottom: var(--space-6);
+}
+
+/* Index hero variant: use a slightly stronger tonal container (Gray 600)
+   while keeping the neutral, non-card look and more top padding */
+.hisp-hero.hisp-hero--index,
+.hisp-hero--index {
+  /* Index uses the same neutral style: no background, but allow extra top padding */
+  background: transparent;
+  color: inherit;
+  padding-top: var(--space-12);
+  padding-bottom: var(--space-10);
+}
+
+.hisp-hero--index .hisp-hero__title,
+.hisp-hero--index .hisp-hero__subtitle {
+  color: inherit;
+}
+
+/* Fallback: if the page generator removed the hero wrapper, style the top
+   heading + first paragraph like the hero (subtle surface, not card-like). */
+/* fallback for plain pages (H1 + first P) */
+.md-content__inner > h1,
+.md-content__inner > h1 + p {
+  /* fallback for pages without .hisp-hero wrapper — keep neutral (no bg) */
+  background: transparent;
+  color: var(--md-sys-color-on-surface);
+  border: none;
+}
+
+.md-content__inner > h1 {
+  /* bigger top padding to match .hisp-hero spacing */
+  padding: var(--space-8) var(--space-4) 0 var(--space-4);
+  border-top-left-radius: var(--radius-sm);
+  border-top-right-radius: var(--radius-sm);
+  margin-bottom: 0;
+}
+
+.md-content__inner > h1 + p {
+  padding: 0 var(--space-4) var(--space-8) var(--space-4);
+  margin-top: 0;
+  border-bottom-left-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+  margin-bottom: var(--space-4);
+}
+
+/* Index page: slightly darker/stronger tonal background for H1+intro
+   id="welcome" — uses surface-container-low for clearer separation */
+.md-content__inner > h1#welcome,
+.md-content__inner > h1#welcome + p {
+  /* fallback index hero: neutral, no background but matching top padding */
+  background: transparent;
+  color: var(--md-sys-color-on-surface);
+}
+
+.md-content__inner > h1#welcome {
+  padding-top: var(--space-12);
+}
+
+.md-content__inner > h1#welcome + p {
+  padding-bottom: var(--space-10);
+}
+
+.hisp-hero__inner {
+  display: flex;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.hisp-hero__logo {
+  flex: 0 0 auto;
+  max-width: 240px;
+  margin: 0;
+}
+
+/* Logo inside hero content (between text and button) */
+.hisp-hero__content .hisp-hero__logo {
+  max-width: 280px;
+  margin: var(--space-4) 0;
+}
+
+.hisp-hero__logo img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.hisp-hero__content {
+  flex: 1 1 auto;
+}
+
+.hisp-hero__title {
+  font-size: 1.6rem;
+  margin: 0 0 0.25rem 0;
+  color: var(--md-sys-color-on-surface);
+}
+
+.hisp-hero__subtitle {
+  margin: 0 0 var(--space-3) 0;
+  /* match index-card text: same size & color as card body */
+  font-size: 0.7rem;
+  color: var(--md-sys-color-on-surface);
+}
+
+.hisp-hero__cta {
+  display:flex;
+  gap: var(--space-2);
+  align-items:center;
+}
+
+@media (min-width: 768px) {
+  .hisp-hero { grid-template-columns: 1fr; }
+  .hisp-hero__inner { flex-direction: row; }
+}
+
+
+/* First element (title) – tight to top */
+.md-typeset .hisp-card > *:first-child {
+  padding-top: var(--space-4);
+  margin-top: 0;
+}
+
+/* Remove extra margin from h3 titles in cards */
+.md-typeset .hisp-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+
+/* NO hover effects on cards */
+.md-typeset .hisp-card:hover {
+  box-shadow: var(--elev-1);
+  transform: none;
+}
+
+/* Card actions area – bottom right aligned, chips stacked vertically */
+.hisp-card__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--space-3) var(--space-4);
+  margin-top: auto;
+  border-top: 1px solid var(--md-sys-color-outline-variant);
+  gap: var(--space-2);
+}
+
+/* Remove default p margin inside actions and make it flex column */
+.hisp-card__actions p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-2);
+}
+
+/* Wide screenshot card variant: on narrow screens it's full-width, on
+   medium+ screens it spans two columns (so it is at most as wide as two
+   normal cards). */
+.md-typeset .hisp-card--wide {
+  grid-column: 1 / -1;
+  /* Make wide screenshot cards size to content: cancel global min-height
+     applied to .hisp-card so screenshots / embedded content don't get
+     stretched to an artificial 260px baseline. */
+  min-height: 0; /* allow height determined by content */
+  align-items: start; /* let content flow naturally to top */
+}
+
+@media (min-width: 768px) {
+  .md-typeset .hisp-card-grid .hisp-card--wide,
+  .md-typeset .hisp-card-grid--3col .hisp-card--wide {
+    grid-column: span 2; /* occupy two columns in multi-column grids */
+  }
+}
+
+/* Allow larger images in wide cards */
+.md-typeset .hisp-card--wide img {
+  max-width: 100%;
+  height: auto; /* allow images to display at their intrinsic aspect ratio */
+  max-height: none; /* no artificial cropping for wide-card images */
+}
+
+/* Action button styling */
+.hisp-card__actions .md-button {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+/* Neutralize any Material card hovers */
+.md-card {
+  box-shadow: var(--elev-1);
+}
+
+.md-card:hover {
+  box-shadow: var(--elev-1);
+  transform: none;
+}
+
+/* =============================================================================
+   6. HEADER AND NAVIGATION
+   ============================================================================= */
+
+/* Header styling – dark for contrast */
+.md-header {
+  background-color: var(--app-header-bg);
+  box-shadow: var(--elev-2);
+  color: var(--app-header-fg);
+}
+
+.md-header__title {
+  color: var(--app-header-fg);
+}
+
+.md-header__button {
+  color: var(--app-header-fg);
+}
+
+.md-header__button:hover {
+  opacity: 0.8;
+}
+
+/* Mobile drawer header: match the top app bar color and hide duplicate text
+   (logo contains accessible label already). We keep the logo visible. */
+.md-nav--primary .md-nav__title[for="__drawer"] {
+  background-color: var(--app-header-bg);
+  /* visually hide the duplicate textual label; keep interactive logo */
+  color: transparent;
+  font-size: 0; /* collapse visible text nodes while preserving images */
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* Ensure the logo anchor stays visible / natural size */
+.md-nav--primary .md-nav__title[for="__drawer"] .md-nav__button {
+  font-size: initial;
+}
+
+/* Navigation tabs */
+.md-tabs {
+  background-color: var(--app-header-bg);
+  color: var(--app-header-fg);
+}
+
+.md-tabs__link {
+  color: var(--app-header-fg);
+  opacity: 0.8;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--app-header-fg);
+  opacity: 1;
+}
+
+/* Search bar styling – inside dark header */
+.md-search__input {
+  background-color: var(--app-search-bg) !important;
+  border-radius: 0;
+  color: var(--app-search-fg);
+}
+
+/* Fix search form wrapper background */
+.md-search__form {
+  background-color: var(--app-search-bg);
+  border-radius: 0;
+}
+
+.md-search__input::placeholder {
+  color: var(--app-search-placeholder);
+}
+
+/* Search icon color */
+.md-search__icon {
+  color: var(--app-search-placeholder);
+}
+
+/* Search overlay/dropdown */
+.md-search__output {
+  background-color: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+}
+
+.md-search-result__link {
+  color: var(--md-sys-color-on-surface);
+}
+
+.md-search-result__link:hover {
+  background-color: var(--md-sys-color-surface-variant);
+}
+
+/* Sidebar navigation */
+.md-nav__link {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.md-nav__link:hover {
+  color: var(--md-sys-color-primary);
+}
+
+.md-nav__link--active {
+  color: var(--md-sys-color-primary);
+  font-weight: 500;
+}
+
+/* =============================================================================
+   7. CONTENT ENHANCEMENTS
+   ============================================================================= */
+
+/* Code blocks */
+.md-typeset code {
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.4em;
+  background-color: var(--md-sys-color-surface-variant);
+  color: var(--md-sys-color-on-surface);
+}
+
+.md-typeset pre {
+  border-radius: var(--radius-md);
+  background-color: var(--md-sys-color-surface);
+}
+
+.md-typeset pre > code {
+  border-radius: var(--radius-md);
+  background-color: transparent;
+}
+
+/* Admonitions / callouts */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: var(--radius-md);
+  box-shadow: var(--md-elevation-z1);
+  background-color: var(--md-sys-color-surface-variant);
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--md-elevation-z1);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface);
+}
+
+.md-typeset table:not([class]) td {
+  background-color: var(--md-sys-color-surface);
+  color: var(--md-sys-color-on-surface);
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left-color: var(--md-sys-color-outline);
+  background-color: var(--md-sys-color-surface-variant);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: var(--space-3) var(--space-4);
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+/* =============================================================================
+   8. LOGO STYLING
+   ============================================================================= */
+
+.md-header__button.md-logo img {
+  height: auto !important;
+  max-height: none !important;
+  height: 80px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+/* =============================================================================
+   9. SCREENSHOT GRID LAYOUT (replaces masonry)
+   ============================================================================= */
+
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .masonry {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.masonry img {
+  width: 100% !important;
+  max-width: 100%;
+  height: 90px; /* default small tiles inside ordinary cards */
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  display: block;
+  margin: 0;
+}
+
+/* For masonry inside a wide screenshot card allow natural image height */
+.md-typeset .hisp-card--wide .masonry img {
+  /* limit tall images inside wide cards so cards don't grow excessively
+     while preserving a consistent visual crop similar to toolkit */
+  height: auto;
+  object-fit: cover; /* crop to fit the wide card area */
+  max-height: 220px; /* cap tall images to keep cards compact */
+  width: 100% !important;
+}
+
+/* If markdown produces a single <p> containing multiple anchors/images,
+   allow those inner elements to act as grid children so they lay out as tiles */
+.masonry > p {
+  display: contents;
+}
+
+.masonry > p > a,
+.masonry > a {
+  display: block;
+}
+
+/* Compact masonry variant for screenshots inside normal-sized cards */
+.masonry--compact {
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-2);
+}
+
+/* Keep max 2 columns even on larger screens */
+.masonry--compact img {
+  width: 100%;
+  max-width: 120px;
+  height: auto !important;
+  object-fit: contain;
+  aspect-ratio: auto;
+  border-radius: var(--radius-sm);
+}
+
+/* =============================================================================
+   10. PROJECT CARDS ON INDEX PAGE – NO HOVER EFFECTS
+   ============================================================================= */
+
+/* Style for project sections on the index page */
+.md-typeset h3 a {
+  color: var(--md-sys-color-primary);
+  text-decoration: none;
+}
+
+.md-typeset h3 a:hover {
+  color: var(--md-sys-color-secondary);
+}
+
+/* Project image styling – no hover transform */
+.md-typeset p > a > img {
+  border-radius: var(--radius-md);
+}
+
+.md-typeset p > a > img:hover {
+  box-shadow: none;
+  transform: none;
+}
+
+/* =============================================================================
+   11. FOOTER
+   ============================================================================= */
+
+.md-footer {
+  background-color: var(--app-header-bg);
+  color: var(--app-header-fg);
+}
+
+.md-footer-meta {
+  background-color: var(--md-sys-color-surface-container-highest);
+}
+
+.md-footer a {
+  color: var(--app-header-fg);
+  opacity: 0.85;
+}
+
+.md-footer a:hover {
+  opacity: 1;
+}
+
+/* =============================================================================
+   12. MOBILE RESPONSIVENESS
+   ============================================================================= */
+
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+  }
+}
+
+/* =============================================================================
+   13. PRINT STYLES
+   ============================================================================= */
+
+@media print {
+  .md-typeset .hisp-card {
+    box-shadow: none;
+    border: 1px solid var(--md-sys-color-outline);
+  }
+}
