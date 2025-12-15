@@ -5,6 +5,10 @@
  * Provides the HTML shell with SEO meta tags, stylesheets, and common structure.
  */
 
+// Import styles so Astro bundles them
+import '../styles/tokens.css';
+import '../styles/site.css';
+
 interface Props {
   title?: string;
   description?: string;
@@ -42,10 +46,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:title" content={title}>
   <meta name="twitter:description" content={description}>
   
-  <!-- Styles -->
-  <link rel="stylesheet" href="/src/styles/tokens.css">
-  <link rel="stylesheet" href="/src/styles/site.css">
-  
   <!-- Fonts: Roboto from Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,4 +66,5 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <!-- Theme manager -->
   <script src="/src/scripts/theme.js"></script>
 </body>
-</html>
+</body>
+<script src="../scripts/theme.js"></script
