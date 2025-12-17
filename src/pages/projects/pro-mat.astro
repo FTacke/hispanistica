@@ -1,0 +1,135 @@
+---
+/**
+ * Pronunciation Matters Project Page
+ */
+
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Button from '../../components/Button.astro';
+import { projectLinks } from '../../config/links';
+---
+
+<Base
+  title="Pronunciation Matters - Hispanistica"
+  description="Pronunciation Matters – Fremdsprachen digital erforschen und lehren. Multilingual learner-pronunciation platform building on MAR.ELE."
+>
+  <Nav />
+
+  <main>
+    <div class="container container--narrow content">
+      <!-- Project Header with Logo -->
+      <div class="project-header">
+        <img
+          src="/pro_mat-logo.png"
+          alt="Pronunciation Matters Logo"
+          class="project-logo"
+        />
+      </div>
+
+      <h1>Pronunciation Matters — Upcoming Platform</h1>
+
+      <p
+        class="hero__subtitle"
+        style="font-size: var(--md-sys-typescale-title-medium-font-size); margin-bottom: var(--space-6);"
+      >
+        Pronunciation Matters extends the MAR.ELE pilot into a unified, modern platform for learner pronunciation corpora across
+        English, French, Spanish, and German as a foreign/second language — integrating audio, aligned transcriptions, and rich
+        metadata for research, teaching, and school transfer.
+      </p>
+
+      <div class="button-group">
+        <!-- If you don't have links yet, you can temporarily remove these buttons or point them to a placeholder route -->
+        <Button href={projectLinks.pronunciation_matters.youtube} target="_blank" rel="noopener noreferrer">
+          Watch Video →
+        </Button>
+        <Button href=# variant="outlined" target="_blank" rel="noopener noreferrer">
+          View on GitHub
+        </Button>
+      </div>
+
+      <h2>What it is</h2>
+
+      <p>
+        Pronunciation Matters is a funded teaching-and-research initiative at Philipps-Universität Marburg. It builds on the proven
+        MAR.ELE workflows (data collection → AI-supported transcription with timestamps → publication via WebApp) and scales them
+        into a multilingual ecosystem with consistent pipelines and a central landing page that bundles multiple language modules.
+      </p>
+
+      <p>
+        The goal is a stable, well-documented platform where authentic learner pronunciation becomes systematically explorable and
+        directly usable in university teaching and school contexts, including direct comparison of learner speech and model speakers.
+      </p>
+
+      <h2>What will be new compared to MAR.ELE</h2>
+
+      <ul>
+        <li><strong>Multiple language corpora</strong> in one platform: English, French, Spanish, and German (DaF/DaZ).</li>
+        <li><strong>Standardized pipelines</strong> so future language modules can be added efficiently and reproducibly.</li>
+        <li><strong>Modern MD3-style web design</strong> (in the spirit of the CO.RA.PAN web app) for a clean, accessible UX.</li>
+        <li><strong>Teaching integration</strong>: supports linguistic and didactic seminar formats with authentic research data and audio.</li>
+        <li><strong>Transfer</strong>: materials designed to be used beyond the university, including school pronunciation teaching.</li>
+      </ul>
+
+      <h2>Project collaboration</h2>
+
+      <p>
+        Pronunciation Matters is developed as a collaborative project at Marburg University. It brings together expertise from
+        multiple language departments, with each partner contributing responsibility for a specific learner-language corpus:
+      </p>
+
+      <p>
+        Pronunciation Matters is coordinated by <a href={projectLinks.general.felixTacke} target="_blank" rel="noopener noreferrer"><strong>Felix Tacke</strong></a> (project lead), who is responsible for the Spanish pronunciation corpus
+        and the project’s digital infrastructure.
+      </p>
+
+      <p>
+        The project is developed in close collaboration with
+        <a href={projectLinks.pronunciation_matters.team[1].url} target="_blank" rel="noopener noreferrer"><strong>{projectLinks.pronunciation_matters.team[1].name}</strong></a>
+        (English),
+        <a href={projectLinks.pronunciation_matters.team[0].url} target="_blank" rel="noopener noreferrer"><strong>{projectLinks.pronunciation_matters.team[0].name}</strong></a>
+        (French), and
+        <a href={projectLinks.pronunciation_matters.team[2].url} target="_blank" rel="noopener noreferrer"><strong>{projectLinks.pronunciation_matters.team[2].name}</strong></a>
+        (German as a Foreign / Second Language), who are responsible for the respective learner pronunciation corpora.
+        All partners jointly contribute to the conceptual design and ongoing development of the linguistic data and materials, establishing
+        Pronunciation Matters as a genuinely cross-linguistic research and teaching project.
+      </p>
+
+      <h2>Award & funding</h2>
+
+      <p>
+        Pronunciation Matters was recognized in the <em>Lehre@Philipp</em> award program at Marburg University, which supports
+        innovative and sustainable teaching concepts. The project received targeted funding to support its development, including
+        student research assistants, the expansion of transcription and time-alignment workflows, and the technical realization and
+        hosting of the platform.
+      </p>
+
+      <p>
+        For a brief introduction to the teaching project, see the video (only in German):
+      </p>
+
+      <div style="margin: var(--space-6) 0;">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ucvpPAONGoY?si=if1rLRtjWrof7JVl"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          style="max-width: 100%; width: 100%; aspect-ratio: 16 / 9; height: auto; border-radius: 12px;"
+        ></iframe>
+      </div>
+
+      <h2>Status</h2>
+
+      <p>
+        Pronunciation Matters is currently in preparation. The platform is scheduled to launch in summer/autumn as a multilingual landing page linking to the individual language modules.
+      </p>
+
+    </div>
+  </main>
+
+  <Footer />
+</Base>

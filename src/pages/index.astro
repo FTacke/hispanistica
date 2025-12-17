@@ -9,6 +9,7 @@ import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 import Card from '../components/Card.astro';
 import Footer from '../components/Footer.astro';
+import { projectLinks } from '../config/links';
 ---
 
 <Base>
@@ -22,13 +23,13 @@ import Footer from '../components/Footer.astro';
         class="logo logo--home"
         style="margin: 0 auto var(--space-6);"
       />
-      <p class="hero__text">Hispanistica documents Digital Humanities projects in Hispanic linguistics at Philipps University of Marburg, highlighting their technical foundations, versioned development workflows, and adherence to FAIR principles. It provides an overview of research infrastructures, corpora, and digital teaching tools developed by Felix Tacke.</p>
+      <p class="hero__text">Hispanistica documents Digital Humanities projects in Hispanic linguistics at Philipps University of Marburg, highlighting their technical foundations, versioned development workflows, and adherence to FAIR principles. It provides an overview of research infrastructures, corpora, and digital teaching tools developed by <a href={projectLinks.general.felixTacke} target="_blank" rel="noopener noreferrer">Felix Tacke</a>.</p>
     </section>
     
     <section class="container">
       <div class="card-grid">
         <Card 
-          title="CO.RA.PAN (Corpus Radiofónico Panhispánico)"
+          title="CO.RA.PAN"
           description="A large-scale corpus of contemporary broadcast Spanish from nearly all Spanish-speaking countries. The web app integrates transcript navigation, metadata filters, and synchronized audio playback."
           href="/projects/co-ra-pan/"
         />
@@ -38,9 +39,15 @@ import Footer from '../components/Footer.astro';
           description="A pronunciation corpus capturing spoken Spanish from learners across proficiency levels and linguistic backgrounds. The platform combines recordings with transparent annotation workflows and speaker metadata."
           href="/projects/mar-ele/"
         />
-        
+
+        <Card
+          title="Pronunciation Matters"
+          description="Upcoming multilingual platform for learner pronunciation corpora. Extends MAR.ELE to English, French, Spanish, and German with a modern MD3-style research and teaching interface."
+          href="/projects/pro-mat/"
+        />
+
         <Card 
-          title="Spanish Linguistics @ School"
+          title="Spanische Linguistik @ School"
           description="A digital reference book for Spanish language teachers with a focus on linguistic awareness and classroom applicability. Built as a structured, responsive static site with reusable didactic components."
           href="/projects/school/"
         />

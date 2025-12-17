@@ -23,13 +23,32 @@ export const projectLinks = {
       webapp: 'https://doi.org/10.5281/zenodo.11515518'
     }
   },
-  
+
+  pronunciation_matters: {
+    youtube: 'https://youtu.be/ucvpPAONGoY?si=XNPaB4xakROGp4Lt',
+    team: [
+      {
+        name: 'Janina Reinhardt',
+        url: 'https://www.uni-marburg.de/de/fb10/romanistik/institut/ordner_lehrende/lehrende/staff-info-redirect?dn=6zh9to4uac'
+      }, // Qualifikationsprofessorin, Romanistik (Philipps-Universität Marburg) :contentReference[oaicite:0]{index=0}
+      {
+        name: 'Rolf Kreyer',
+        url: 'https://www.uni-marburg.de/de/fb10/iaa/institut/personen/kreyer'
+      }, // Universitätsprofessor, Anglistik & Amerikanistik (Philipps-Universität Marburg) :contentReference[oaicite:1]{index=1}
+      {
+        name: 'Kathrin Siebold',
+        url: 'https://www.uni-marburg.de/de/fb09/igs/arbeitsgruppen/dafz/mitarbeiter-innen/siebold'
+      } // Universitätsprofessorin, Deutsch als Fremd- und Zweitsprache (Philipps-Universität Marburg) :contentReference[oaicite:2]{index=2}
+    ]
+  },
+    
   school: {
     webapp: 'https://school.hispanistica.com',
     github: 'https://github.com/FTacke/spanisch-toolkit'
   },
   
   general: {
-    githubProfile: 'https://github.com/FTacke'
+    githubProfile: 'https://github.com/FTacke',
+    felixTacke: 'https://www.uni-marburg.de/de/fb10/romanistik/institut/ordner_lehrende/felix-tacke'
   }
 } as const;
