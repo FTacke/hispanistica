@@ -1,0 +1,133 @@
+/**
+ * Games.Hispanistica Project Page
+ */
+
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Button from '../../components/Button.astro';
+import { projectLinks } from '../../config/links';
+---
+
+<Base
+  title="Games.Hispanistica - Hispanistica"
+  description="Gamified learning modules for Hispanic linguistics. Open-source, modular, and collaboratively developed."
+>
+  <Nav />
+
+  <main>
+    <div class="container container--narrow content">
+      <!-- Project Header with Logo -->
+      <div class="project-header">
+        <img
+          src="/games-logo.png"
+          alt="Games.Hispanistica Logo"
+          class="project-logo"
+        />
+      </div>
+
+      <h1>Games.Hispanistica</h1>
+
+      <p
+        class="hero__subtitle"
+        style="font-size: var(--md-sys-typescale-title-medium-font-size); margin-bottom: var(--space-6);"
+      >
+        A digital research and development project creating gamified, web-based learning modules for Hispanic linguistics.
+        Games.Hispanistica translates established linguistic content into interactive quiz and game formats that support
+        structured analysis, comparison, and feedback-driven exploration.
+      </p>
+
+      <div class="button-group">
+        <Button
+          href="https://github.com/FTacke/hispanistica_games"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub →
+        </Button>
+      </div>
+
+      <h2>What it is</h2>
+
+      <p>
+        Games.Hispanistica is not a single application, but a modular collection of lightweight, web-based games, quizzes,
+        and interactive tasks. These components operationalize linguistic concepts and categories in formats that emphasize
+        decision-making, classification, and immediate feedback.
+      </p>
+
+      <p>
+        The modules are designed for use in university teaching, project-based learning, and teacher education, and can be
+        used either independently or in combination with other Hispanistica resources.
+      </p>
+
+      <h2>Content scope & integration</h2>
+
+      <p>
+        The project is closely aligned with the linguistic foundations developed in other Hispanistica initiatives,
+        in particular <em>Spanische Linguistik @ School</em>. Rather than introducing independent content, Games.Hispanistica
+        builds on existing explanations, terminologies, and examples, extending them through interactive formats.
+      </p>
+
+      <p>
+        Typical topic areas include (examples): pronunciation and variation, error linguistics, morphosyntax, language change,
+        and multilingualism. The concrete selection and implementation of topics evolve over time.
+      </p>
+
+      <h2>Collaborative development</h2>
+
+      <p>
+        Game concepts and content are developed collaboratively with students in research-oriented and project-based teaching
+        contexts. Modules are iteratively designed, tested, revised, and expanded as part of ongoing academic work.
+      </p>
+
+      <p>
+        Code and technical implementation are developed by the project lead, supported by AI-assisted programming workflows.
+        This approach enables rapid prototyping while maintaining transparent, well-documented, and reusable code structures.
+      </p>
+
+      <h2>Code & Open Science</h2>
+
+      <p>
+        Games.Hispanistica is developed as an open-source project. The complete codebase is publicly available and published
+        under the MIT License, following established Hispanistica principles of transparency, reproducibility, and reuse.
+      </p>
+
+      <p>
+        <a
+          href="https://github.com/FTacke/hispanistica_games"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub →
+        </a>
+      </p>
+
+      <h2>Releases & citation</h2>
+
+      <p>
+        A structured release strategy is planned following established practices from other Hispanistica projects.
+        Code and quiz/game content will be versioned and published separately via Zenodo.
+      </p>
+
+      <ul>
+        <li>Separate releases for software and content</li>
+        <li>Concept DOI with version-specific DOIs</li>
+        <li>Clear separation of code, content, and documentation</li>
+      </ul>
+
+      <p>
+        DOI information will be added as releases become available.
+      </p>
+
+      <h2>Status</h2>
+
+      <p>
+        Games.Hispanistica is currently under active development. Individual modules are released incrementally as they reach
+        a stable and documented state.
+      </p>
+
+    </div>
+  </main>
+
+  <Footer />
+</Base>

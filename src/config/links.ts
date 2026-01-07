@@ -46,6 +46,10 @@ export const projectLinks = {
     webapp: 'https://school.hispanistica.com',
     github: 'https://github.com/FTacke/spanisch-toolkit'
   },
+
+  games: {
+    github: 'https://github.com/FTacke/hispanistica_games'
+  },
   
   general: {
     githubProfile: 'https://github.com/FTacke',
