@@ -491,6 +491,22 @@ main {
   margin-bottom: var(--space-3);
 }
 
+.card__logo {
+  width: calc(100% + var(--space-6) + var(--space-6));
+  max-width: none;
+  height: auto;
+  display: block;
+  margin: calc(0px - var(--space-6)) calc(0px - var(--space-6)) var(--space-4);
+  align-self: stretch;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+
+.card__logo-link {
+  display: block;
+  text-decoration: none;
+}
+
 .card__content {
   color: var(--md-sys-color-on-surface-variant);
   font-size: var(--md-sys-typescale-body-medium-font-size);

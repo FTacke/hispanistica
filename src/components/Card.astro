@@ -10,17 +10,31 @@ interface Props {
   description: string;
   href: string;
   linkText?: string;
+  logoSrc?: string;
+  logoAlt?: string;
 }
 
 const { 
   title, 
   description, 
   href, 
-  linkText = "Learn more →" 
+  linkText = "Learn more →",
+  logoSrc,
+  logoAlt
 } = Astro.props;
 ---
 
 <div class="card">
+  {logoSrc && (
+    <a href={href} class="card__logo-link" aria-label={logoAlt ?? `${title} Logo`}>
+      <img
+        src={logoSrc}
+        alt={logoAlt ?? `${title} Logo`}
+        class="card__logo"
+        loading="lazy"
+      />
+    </a>
+  )}
   <h3 class="card__title">{title}</h3>
   <p class="card__content">{description}</p>
   <div class="card__actions">
