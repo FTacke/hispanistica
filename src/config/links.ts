@@ -12,7 +12,7 @@ export const projectLinks = {
       webapp: 'https://doi.org/10.5281/zenodo.17834023',
       fullCorpus: 'https://doi.org/10.5281/zenodo.15360942',
       sampleCorpus: 'https://doi.org/10.5281/zenodo.17834025',
-      metadata: 'https://doi.org/10.5281/zenodo.17834027'
+      metadata: 'https://doi.org/10.5281/zenodo.17843469'
     }
   },
   
