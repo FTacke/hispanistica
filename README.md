@@ -14,19 +14,39 @@ An overview of Digital Humanities projects in Hispanic linguistics at Philipps-U
 
 This site is built with [Astro](https://astro.build) and deployed via GitHub Pages to [hispanistica.com](https://hispanistica.com).
 
-## Development
+## Python Reproducibility
 
-`ash
-# Install dependencies
+- Final Python version: `3.12` (Local Dev Pin)
+- Authoritative source: `.python-version` (repo root)
+- Clarification: There is currently no Python runtime pin in Docker/CI/deployment config (`.github/workflows/deploy.yml` is Node-only), so this pin is for local reproducibility on Windows development machines.
+
+## Setup (Windows, copy-paste)
+
+```
+git clone <repo-url>
+cd <repo-name>
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+.\scripts\bootstrap.ps1
+python -m <entrypoint>
+```
+
+Optional:
+
+- Install development dependencies as well: `.\scripts\bootstrap.ps1 -Dev`
+- Create local env file when needed: `Copy-Item .env.example .env`
+
+## Environment Variables
+
+- `CORAPAN_MD3_DIR`: Optional override path for the MD3 token source directory used by `scripts/vendor-md3.mjs`.
+
+Store real secret values outside git (for example in a secret manager) and only place local values in `.env`.
+
+## Development (Node/Astro)
+
+```bash
 npm install
-
-# Start dev server
 npm run dev
-
-# Build for production
 npm run build
-
-# Preview production build
 npm run preview
 ```
 

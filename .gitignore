@@ -9,9 +9,12 @@ node_modules/
 .env
 .env.local
 .env.production
+.venv/
+venv/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
