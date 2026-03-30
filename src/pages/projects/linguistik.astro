@@ -1,0 +1,128 @@
+---
+/**
+ * Linguistik im Spanischunterricht Project Page
+ */
+
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import Button from '../../components/Button.astro';
+import { projectLinks } from '../../config/links';
+---
+
+<Base
+  title="Linguistik im Spanischunterricht - Hispanistica"
+  description="Open digital textbook for Spanish language teaching that connects linguistic expertise, multimedia materials, and modular didactic design."
+>
+  <Nav />
+
+  <main>
+    <div class="container container--narrow content">
+      <div class="project-header">
+        <img
+          src="/linguistik-hispanistica.png"
+          alt="Linguistik im Spanischunterricht Logo"
+          class="project-logo"
+        />
+      </div>
+
+<h1>Linguistik im Spanischunterricht (Linguistics in Spanish Language Teaching)</h1>
+
+<p class="hero__subtitle" style="font-size: var(--md-sys-typescale-title-medium-font-size); margin-bottom: var(--space-6);">
+  A digital textbook for (prospective) teachers of Spanish that demonstrates how linguistic expertise can systematically inform and enrich foreign language instruction. The project combines research, university teaching, and teacher education within a modular, multimedia-enabled digital book.
+</p>
+
+<div class="button-group">
+  <Button href={projectLinks.linguistik.webapp} target="_blank" rel="noopener noreferrer">
+    Open Digital Book →
+  </Button>
+  <Button href={projectLinks.linguistik.github} variant="outlined" target="_blank" rel="noopener noreferrer">
+    View on GitHub
+  </Button>
+</div>
+
+<h2>What it is</h2>
+
+<p>
+  <em>Linguistik im Spanischunterricht</em> is an open digital textbook covering central domains of linguistically informed language teaching. Across seven thematic chapters, it addresses error linguistics, pronunciation, orthography, lexical creativity, language variation and pluricentricity, language change, and heritage language education.
+</p>
+
+<p>
+  A central focus lies on the systematic integration of linguistic variation into teaching practice. The textbook goes beyond the usual restriction to vocabulary and pronunciation by explicitly including grammatical domains such as forms of address, tense usage, and morphosyntax.
+</p>
+
+<p>
+  Audio materials from research projects such as <em>CO.RA.PAN</em>, <em>MAR.ELE</em>, and <em>Pronunciation Matters</em> are directly embedded in the text, enabling authentic exposure to linguistic variation and supporting data-driven learning.
+</p>
+
+<h2>Technical framework</h2>
+
+<p>
+  The textbook is implemented as a static web application using MkDocs with the Zensical theme, adapted specifically for digital book production. The platform extends the standard MkDocs environment through custom components tailored to linguistic and didactic use cases.
+</p>
+
+<ul>
+  <li>Integrated audio players for pronunciation and variation data</li>
+  <li>Interactive maps for geographic linguistic variation</li>
+  <li>Structured admonitions and didactic components</li>
+  <li>Responsive, mobile-first design</li>
+</ul>
+
+<p>
+  This setup enables a reproducible and scalable workflow for developing digital textbooks that combine structured content with multimedia integration.
+</p>
+
+<h2>Open Educational Resource</h2>
+
+<p>
+  The textbook is published as an Open Educational Resource under the CC BY-SA 4.0 license. All content can be reused, adapted, and redistributed under the same license conditions.
+</p>
+
+<p>
+  The project was developed collaboratively with students at Philipps University Marburg and explicitly connects academic research with teacher education and classroom practice.
+</p>
+
+<h2>Code, DOI & citation</h2>
+
+<p>
+  The project follows a clear separation between technical infrastructure and scholarly content:
+</p>
+
+<ul>
+  <li>
+    <strong>Codebase:</strong> openly available on GitHub and archived via Zenodo (versioned DOI)
+  </li>
+  <li>
+    <strong>Textbook content:</strong> published and versioned via an institutional repository (separate DOI)
+  </li>
+</ul>
+
+<p>
+  This structure ensures long-term preservation, precise citation, and transparent versioning.
+</p>
+
+<ul>
+  <li>
+    Code DOI (Zenodo):<br />
+    <a href={projectLinks.linguistik.doi.code} target="_blank" rel="noopener noreferrer">
+      {projectLinks.linguistik.doi.code}
+    </a>
+  </li>
+  <li>
+    Textbook DOI:<br />
+    <a href={projectLinks.linguistik.doi.textbook} target="_blank" rel="noopener noreferrer">
+      {projectLinks.linguistik.doi.textbook}
+    </a>
+  </li>
+</ul>
+
+<h2>Status</h2>
+
+<p>
+  Version 1.0 represents the first complete release of the digital textbook. Further chapters and updates are planned.
+</p>
+    </div>
+  </main>
+
+  <Footer />
+</Base>

@@ -43,12 +43,26 @@ Store real secret values outside git (for example in a secret manager) and only 
 
 ## Development (Node/Astro)
 
+Install dependencies once:
+
 ```bash
 npm install
+```
+
+Start the local development server:
+
+```bash
 npm run dev
+```
+
+Build and preview the production output:
+
+```bash
 npm run build
 npm run preview
 ```
+
+Note: `npm run preview` serves the built `dist/` output and is usually run after stopping `npm run dev`. If port `4321` is already in use, Astro will automatically pick the next free port.
 
 ## Deployment
 

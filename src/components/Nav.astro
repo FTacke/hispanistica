@@ -6,6 +6,8 @@
  * Includes mobile burger menu and Projects dropdown functionality.
  */
 
+import { siteProjects } from '../config/links';
+
 const { pathname } = Astro.url;
 
 const navItems = [
@@ -13,13 +15,7 @@ const navItems = [
   { href: "/approach/", label: "Approach" }
 ];
 
-const projectItems = [
-  { href: "/projects/corapan/", label: "CO.RA.PAN" },
-  { href: "/projects/marele/", label: "MAR.ELE" },
-  { href: "/projects/promat/", label: "Pronunciation Matters" },
-  { href: "/projects/school/", label: "Spanische Linguistik @ School" },
-  { href: "/projects/games/", label: "Games.Hispanistica" }
-];
+const projectItems = siteProjects.map(({ href, title }) => ({ href, label: title }));
 
 function isActive(href: string, currentPath: string): boolean {
   if (href === "/") {
