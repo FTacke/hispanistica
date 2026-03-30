@@ -59,6 +59,20 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       document.documentElement.setAttribute('data-theme', theme);
     })();
   </script>
+
+  <script is:inline>
+    (function () {
+      var host = window.location.hostname;
+
+      if (host === 'hispanistica.com' || host === 'www.hispanistica.com') {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '//gc.zgo.at/count.js';
+        script.setAttribute('data-goatcounter', 'https://hispanistica.goatcounter.com/count');
+        document.head.appendChild(script);
+      }
+    })();
+  </script>
 </head>
 <body>
   <slot />
@@ -66,5 +80,3 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <!-- Theme manager -->
   <script src="/src/scripts/theme.js"></script>
 </body>
-</body>
-<script src="../scripts/theme.js"></script
