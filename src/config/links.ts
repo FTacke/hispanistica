@@ -41,11 +41,6 @@ export const projectLinks = {
       } // Universitätsprofessorin, Deutsch als Fremd- und Zweitsprache (Philipps-Universität Marburg) :contentReference[oaicite:2]{index=2}
     ]
   },
-    
-  school: {
-    webapp: 'https://school.hispanistica.com',
-    github: 'https://github.com/FTacke/spanisch-toolkit'
-  },
 
   linguistik: {
     webapp: 'https://linguistik.hispanistica.com',
@@ -91,14 +86,6 @@ export const siteProjects = [
     logoSrc: '/pro_mat-logo.png',
     logoAlt: 'Pronunciation Matters Logo',
     description: 'Upcoming multilingual platform for learner pronunciation corpora. Extends MAR.ELE to English, French, Spanish, and German with a modern MD3-style research and teaching interface.'
-  },
-  {
-    slug: 'school',
-    href: '/projects/school/',
-    title: 'Spanische Linguistik @ School',
-    logoSrc: '/toolkit-logo.png',
-    logoAlt: 'Spanische Linguistik @ School Logo',
-    description: 'A digital reference book for Spanish language teachers with a focus on linguistic awareness and classroom applicability. Built as a structured, responsive static site with reusable didactic components.'
   },
   {
     slug: 'linguistik',

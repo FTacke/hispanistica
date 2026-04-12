@@ -6,7 +6,6 @@ An overview of Digital Humanities projects in Hispanic linguistics at Philipps-U
 
 - **CO.RA.PAN**: Corpus Radiofónico Panhispánico – Audio and transcription corpus for the study of pluricentric Spanish. [Live](https://corapan.hispanistica.com) | [GitHub](https://github.com/FTacke/corapan-webapp)
 - **MAR.ELE**: Learner pronunciation corpus for Spanish as a foreign language. [Live](https://marele.hispanistica.com) | [GitHub](https://github.com/FTacke/marele-webapp)
-- **Spanish Linguistics @ School**: Digital reference book for Spanish language teachers. [Live](https://school.hispanistica.com) | [GitHub](https://github.com/FTacke/spanisch-toolkit)
 
 ---
 
