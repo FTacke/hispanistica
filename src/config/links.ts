@@ -72,22 +72,6 @@ export const siteProjects = [
     description: 'A large-scale corpus of contemporary broadcast Spanish from nearly all Spanish-speaking countries. The web app integrates transcript navigation, metadata filters, and synchronized audio playback.'
   },
   {
-    slug: 'marele',
-    href: '/projects/marele/',
-    title: 'MAR.ELE',
-    logoSrc: '/marele-logo.png',
-    logoAlt: 'MAR.ELE Logo',
-    description: 'A pronunciation corpus capturing spoken Spanish from learners across proficiency levels and linguistic backgrounds. The platform combines recordings with transparent annotation workflows and speaker metadata.'
-  },
-  {
-    slug: 'promat',
-    href: '/projects/promat/',
-    title: 'Pronunciation Matters',
-    logoSrc: '/pro_mat-logo.png',
-    logoAlt: 'Pronunciation Matters Logo',
-    description: 'Upcoming multilingual platform for learner pronunciation corpora. Extends MAR.ELE to English, French, Spanish, and German with a modern MD3-style research and teaching interface.'
-  },
-  {
     slug: 'linguistik',
     href: '/projects/linguistik/',
     title: 'Linguistik im Spanischunterricht',
@@ -102,5 +86,21 @@ export const siteProjects = [
     logoSrc: '/games-logo.png',
     logoAlt: 'Games.Hispanistica Logo',
     description: 'A collection of gamified, web-based learning modules that translate established linguistic content into interactive quiz and game formats for analysis, comparison, and feedback-driven exploration.'
+  },
+  {
+    slug: 'marele',
+    href: '/projects/marele/',
+    title: 'MAR.ELE',
+    logoSrc: '/marele-logo.png',
+    logoAlt: 'MAR.ELE Logo',
+    description: 'A pronunciation corpus capturing spoken Spanish from learners across proficiency levels and linguistic backgrounds. The platform combines recordings with transparent annotation workflows and speaker metadata.'
+  },
+  {
+    slug: 'promat',
+    href: '/projects/promat/',
+    title: 'Pronunciation Matters',
+    logoSrc: '/pro_mat-logo.png',
+    logoAlt: 'Pronunciation Matters Logo',
+    description: 'Upcoming multilingual platform for learner pronunciation corpora. Extends MAR.ELE to English, French, Spanish, and German with a modern MD3-style research and teaching interface.'
   }
 ] as const;
