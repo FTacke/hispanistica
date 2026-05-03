@@ -101,6 +101,6 @@ export const siteProjects = [
     title: 'Pronunciation Matters',
     logoSrc: '/pro_mat-logo.png',
     logoAlt: 'Pronunciation Matters Logo',
-    description: 'Upcoming multilingual platform for learner pronunciation corpora. Extends MAR.ELE to English, French, Spanish, and German with a modern MD3-style research and teaching interface.'
+    description: 'Upcoming multilingual platform for learner pronunciation corpora. Extends MAR.ELE to English, French, Spanish, and German with a modern research and teaching interface.'
   }
 ] as const;
